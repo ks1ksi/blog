@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ks1ksi.github.io/sitemap.xml
