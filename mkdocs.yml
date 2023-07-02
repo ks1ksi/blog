@@ -71,6 +71,9 @@ plugins:
       timezone: Asia/Seoul
       type: iso_datetime
       enable_creation_date: true
+  - blogging:
+      theme:
+        name: card
 
 extra:
   social:
