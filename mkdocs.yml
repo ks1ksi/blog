@@ -42,7 +42,7 @@ theme:
 # Extensions
 markdown_extensions:
   - footnotes
-  - n12br
+  - nl2br
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
