@@ -149,6 +149,3 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .vscode/settings.json
-.obsidian/*
-
-docs/.obsidian/

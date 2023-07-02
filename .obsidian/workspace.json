@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "9a2c4fa7279dc764",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4c47d58fe23096c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "871b72dd9ae369c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6cc9b5ca4c7f06f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2008e5f30685be61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0525f914824b309",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a41deb858b89ef3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef58c03345ba54b9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "6dd28c48402fb43a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ab4f0e2d97f9e18",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a21f799aba7df7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8571ae88da352c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20fa26de1e4fae11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5fd153a7e88b031",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3987fc9ab0d4c358",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 교재.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "871b72dd9ae369c0",
+  "lastOpenFiles": [
+    "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
+    "Computer Science/Operating System/OSTEP 교재.md",
+    "Computer Science/Operating System/OSTEP 05 Process Api.md",
+    "Computer Science/Operating System/OSTEP 04 Process.md",
+    "Computer Science/Operating System/OSTEP 06 Direct Execution.md",
+    "Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
+    "javascripts/mathjax.js",
+    "javascripts",
+    "Computer Science/Algorithm/비트마스크.md",
+    "Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
+    "Computer Science/Algorithm",
+    "Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
+    "Computer Science/Operating System",
+    "Computer Science/Database/SELECT.md",
+    "Computer Science/Database/JOIN.md",
+    "Computer Science/Database",
+    "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md",
+    "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
+    "PS/Programming Contest",
+    "PS/BOJ/백준 2629번 양팔저울.md",
+    "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md",
+    "PS/BOJ/백준 9370번 미확인 도착지.md",
+    "PS/BOJ/백준 27068번 이미지 보정 작업.md",
+    "PS/BOJ/백준 27066번 나무 블럭 게임.md",
+    "PS/BOJ/백준 25953번 템포럴 그래프.md",
+    "PS/BOJ/백준 25949번 Jar Game.md",
+    "PS/BOJ/백준 24229번 모두싸인 출근길.md",
+    "PS/BOJ/백준 10986번 나머지 합.md",
+    "PS/BOJ/백준 23741번 야바위 게임.md",
+    "PS/BOJ/백준 17297번 Messi Gimossi.md",
+    "PS/BOJ/백준 1588번 수열.md",
+    "PS/BOJ/백준 13711번 LCS 4.md",
+    "PS/BOJ",
+    "Life",
+    "Development/Java",
+    "Development",
+    "content/image/전역 후기-1673535564312.jpeg",
+    "content/image/전역 후기-1673535557087.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1682700567651.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1682700563172.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1682699244680.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1682699238482.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1682698684769.jpeg",
+    "content/image/SW 마에스트로 14기 합격 후기-1679681733083.jpeg",
+    "content/image/OSTEP 08 Multi-level Feedback Queue, MLFQ-1687809552989.jpeg",
+    "content/image/OSTEP 08 Multi-level Feedback Queue, MLFQ-1687809532148.jpeg"
+  ]
+}
