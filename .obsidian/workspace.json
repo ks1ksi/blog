@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "57c5d86b9f792c20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md"
               }
             }
           }
@@ -156,20 +170,32 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "a0525f914824b309",
+  "active": "57c5d86b9f792c20",
   "lastOpenFiles": [
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688320073390.jpeg",
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688319451851.jpeg",
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318865724.jpeg",
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318859577.jpeg",
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318106781.jpeg",
+    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318090682.jpeg",
+    "content/image/OSTEP 09 Lottery Scheduling-1688317977219.jpeg",
+    "content/image",
+    "content",
+    "content/image/OSTEP 09 Lottery Scheduling-1688317969916.jpeg",
+    "docs/Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
+    "docs/Computer Science/Operating System/OSTEP 06 Direct Execution.md",
     "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+    "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
+    "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
+    "docs/index.md",
     "docs/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
     "docs/content/무제 파일.md",
-    "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
     "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 04 Process.md",
     "docs/tags.md",
     "무제 파일.canvas",
     "2023-07-02.md",
-    "docs/index.md",
     "docs/Computer Science/Operating System/OSTEP 교재.md",
-    "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
     "Computer Science/Operating System/OSTEP 교재.md",
     "Computer Science/Operating System/OSTEP 05 Process Api.md",
     "Computer Science/Operating System/OSTEP 04 Process.md",
@@ -188,22 +214,10 @@
     "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md",
     "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
     "PS/Programming Contest",
-    "PS/BOJ/백준 2629번 양팔저울.md",
-    "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md",
-    "PS/BOJ/백준 9370번 미확인 도착지.md",
     "PS/BOJ",
     "Life",
-    "Development/Java",
-    "Development",
     "content/image/전역 후기-1673535564312.jpeg",
     "content/image/전역 후기-1673535557087.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682700567651.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682700563172.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682699244680.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682699238482.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682698684769.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1679681733083.jpeg",
-    "content/image/OSTEP 08 Multi-level Feedback Queue, MLFQ-1687809552989.jpeg",
-    "content/image/OSTEP 08 Multi-level Feedback Queue, MLFQ-1687809532148.jpeg"
+    "content/image/SW 마에스트로 14기 합격 후기-1682700567651.jpeg"
   ]
 }

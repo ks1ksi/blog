@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "content",
+  "attachmentFolderPath": "docs/content",
   "strictLineBreaks": false,
   "showLineNumber": true,
   "rightToLeft": false,
