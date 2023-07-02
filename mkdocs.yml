@@ -72,6 +72,11 @@ plugins:
       type: iso_datetime
       enable_creation_date: true
   - blogging:
+      dirs:
+        - 'Computer Science'
+        - Development
+        - Life
+        - PS
       theme:
         name: card
 
