@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c4c47d58fe23096c",
+        "id": "58e1d1ddd3a69b80",
         "type": "tabs",
         "children": [
           {
-            "id": "871b72dd9ae369c0",
+            "id": "01178bba4c875295",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -156,10 +147,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "871b72dd9ae369c0",
+  "active": "01178bba4c875295",
   "lastOpenFiles": [
-    "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+    "무제 파일.canvas",
+    "2023-07-02.md",
+    "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 04 Process.md",
     "docs/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
     "docs/index.md",
@@ -188,8 +181,6 @@
     "PS/BOJ/백준 9370번 미확인 도착지.md",
     "PS/BOJ/백준 27068번 이미지 보정 작업.md",
     "PS/BOJ/백준 27066번 나무 블럭 게임.md",
-    "PS/BOJ/백준 25953번 템포럴 그래프.md",
-    "PS/BOJ/백준 25949번 Jar Game.md",
     "PS/BOJ",
     "Life",
     "Development/Java",
