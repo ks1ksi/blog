@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 교재.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 교재.md"
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md"
               }
             }
           }
@@ -158,6 +158,7 @@
   },
   "active": "871b72dd9ae369c0",
   "lastOpenFiles": [
+    "docs/Computer Science/Operating System/OSTEP 교재.md",
     "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
     "Computer Science/Operating System/OSTEP 교재.md",
     "Computer Science/Operating System/OSTEP 05 Process Api.md",
@@ -189,7 +190,6 @@
     "PS/BOJ/백준 23741번 야바위 게임.md",
     "PS/BOJ/백준 17297번 Messi Gimossi.md",
     "PS/BOJ/백준 1588번 수열.md",
-    "PS/BOJ/백준 13711번 LCS 4.md",
     "PS/BOJ",
     "Life",
     "Development/Java",
