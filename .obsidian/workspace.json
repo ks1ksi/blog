@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md"
+                "file": "docs/index.md"
               }
             }
           }
@@ -156,15 +156,15 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "f03a64ec2fda1e64",
+  "active": "a0525f914824b309",
   "lastOpenFiles": [
+    "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "docs/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
     "docs/content/무제 파일.md",
     "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
     "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 04 Process.md",
     "docs/tags.md",
-    "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "무제 파일.canvas",
     "2023-07-02.md",
     "docs/index.md",
