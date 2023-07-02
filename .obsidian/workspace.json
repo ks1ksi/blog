@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md"
+                "file": "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md"
               }
             }
           }
@@ -158,12 +158,13 @@
   },
   "active": "01178bba4c875295",
   "lastOpenFiles": [
+    "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
+    "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
+    "docs/Computer Science/Operating System/OSTEP 04 Process.md",
     "docs/tags.md",
     "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "무제 파일.canvas",
     "2023-07-02.md",
-    "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
-    "docs/Computer Science/Operating System/OSTEP 04 Process.md",
     "docs/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
     "docs/index.md",
     "docs/Computer Science/Operating System/OSTEP 교재.md",
@@ -190,7 +191,6 @@
     "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md",
     "PS/BOJ/백준 9370번 미확인 도착지.md",
     "PS/BOJ/백준 27068번 이미지 보정 작업.md",
-    "PS/BOJ/백준 27066번 나무 블럭 게임.md",
     "PS/BOJ",
     "Life",
     "Development/Java",
