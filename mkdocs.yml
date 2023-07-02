@@ -79,7 +79,9 @@ plugins:
         - PS
       theme:
         name: card
-      locale: ko_KR
+      locale: ko
+      time_format: '%Y-%m-%d %H:%M:%S' # The format used to display the time
+      meta_time_format: '%Y-%m-%d %H:%M:%S' # The format used to parse the time from meta
 
 extra:
   social:
