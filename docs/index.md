@@ -1,13 +1,7 @@
-# index
-![[homeimage.jpg]]
-
+---
+exclude_from_blog: true
 ---
 
-This is my second brain 🧠 for **Computer Science, Software Development, Problem Solving and My Life :)**
+# Blog
 
-I'm interested in 👨‍💻
-
-> - Backend Develop (Java, Spring)
-> - Problem Solving
-
-*migrated from [https://velog.io/@ks1ksi](https://velog.io/@ks1ksi)*
+{{ blog_content }}
