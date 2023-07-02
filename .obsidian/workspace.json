@@ -11,8 +11,13 @@
             "id": "01178bba4c875295",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Computer Science/Operating System/OSTEP 04 Process.md"
+              }
             }
           }
         ]
@@ -149,6 +158,7 @@
   },
   "active": "01178bba4c875295",
   "lastOpenFiles": [
+    "docs/tags.md",
     "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "무제 파일.canvas",
     "2023-07-02.md",
