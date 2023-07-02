@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md"
+                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md"
               }
             }
           }
@@ -158,7 +158,11 @@
   },
   "active": "871b72dd9ae369c0",
   "lastOpenFiles": [
+    "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
+    "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 04 Process.md",
+    "docs/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
+    "docs/index.md",
     "docs/Computer Science/Operating System/OSTEP 교재.md",
     "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
     "Computer Science/Operating System/OSTEP 교재.md",
@@ -186,10 +190,6 @@
     "PS/BOJ/백준 27066번 나무 블럭 게임.md",
     "PS/BOJ/백준 25953번 템포럴 그래프.md",
     "PS/BOJ/백준 25949번 Jar Game.md",
-    "PS/BOJ/백준 24229번 모두싸인 출근길.md",
-    "PS/BOJ/백준 10986번 나머지 합.md",
-    "PS/BOJ/백준 23741번 야바위 게임.md",
-    "PS/BOJ/백준 17297번 Messi Gimossi.md",
     "PS/BOJ",
     "Life",
     "Development/Java",
