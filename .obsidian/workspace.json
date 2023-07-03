@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+                "file": "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md"
+                "file": "docs/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md"
               }
             }
           }
@@ -172,19 +172,22 @@
   },
   "active": "57c5d86b9f792c20",
   "lastOpenFiles": [
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688320073390.jpeg",
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688319451851.jpeg",
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318865724.jpeg",
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318859577.jpeg",
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318106781.jpeg",
-    "docs/content/image/OSTEP 09 Lottery Scheduling-1688318090682.jpeg",
-    "content/image/OSTEP 09 Lottery Scheduling-1688317977219.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412683555.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412633462.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412491919.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412473870.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412327426.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412265974.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688412107270.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688411970608.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688410810584.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688410677868.jpeg",
+    "docs/content/image/OSTEP 10 Multi-CPU Scheduling-1688409586302.jpeg",
+    "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "content/image",
     "content",
-    "content/image/OSTEP 09 Lottery Scheduling-1688317969916.jpeg",
     "docs/Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 06 Direct Execution.md",
-    "docs/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "docs/Computer Science/Operating System/OSTEP 13 Address Spaces.md",
     "docs/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
     "docs/index.md",
@@ -215,9 +218,6 @@
     "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
     "PS/Programming Contest",
     "PS/BOJ",
-    "Life",
-    "content/image/전역 후기-1673535564312.jpeg",
-    "content/image/전역 후기-1673535557087.jpeg",
-    "content/image/SW 마에스트로 14기 합격 후기-1682700567651.jpeg"
+    "Life"
   ]
 }
