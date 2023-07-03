@@ -149,3 +149,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .vscode/settings.json
+
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
