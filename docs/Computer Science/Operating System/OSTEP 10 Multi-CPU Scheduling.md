@@ -100,7 +100,7 @@ SQMS에 비해 확장성이 좋다. CPU 개수가 증가할수록 큐의 개수�
 
 이렇게 $Q0$에 있는 모든 작업들이 종료된다면
 
-![[Pasted image 20230704042811.png]]
+![[OSTEP 10 Multi-CPU Scheduling-1688413591826.jpeg]]
 
 CPU 0은 일을 하지 않을 것이다. 
 
