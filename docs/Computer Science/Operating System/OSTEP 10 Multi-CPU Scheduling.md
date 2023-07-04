@@ -6,7 +6,7 @@
 하지만 전통적인 프로그램들은 오직 하나의 CPU만 사용하도록 설계되었다. 이 문제를 해결하려면 응용 프로그램을 **병렬(parallel)** 로 실행되도록 다시 작성해야 한다.
 
 > 동시성(Concurrency) vs 병렬성(Parallelism)
-> https://black7375.tistory.com/90
+> [참고](https://black7375.tistory.com/90)
 > ![[OSTEP 10 Multi-CPU Scheduling-1688397745618.jpeg]]
 
 보통 **쓰레드**를 여러 코어에 할당하는 방식을 통해 이를 해결한다.
