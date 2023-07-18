@@ -96,3 +96,4 @@ physical address = virtual address + base
 
 ## 4. 하드웨어 지원 요약
 
+두 가지 CPU 모드가 필요하다.
