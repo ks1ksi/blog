@@ -1,7 +1,7 @@
 ---
 title: OSTEP 17 Free Space Management
 date created: 화요일, 8월 1일 2023, 3:06:36 오전
-date modified: 화요일, 8월 1일 2023, 4:06:14 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 ---
 # OSTEP 17 Free Space Management
 

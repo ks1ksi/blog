@@ -1,3 +1,8 @@
+---
+title: OSTEP 14 Memory API
+date created: 월요일, 7월 17일 2023, 11:28:44 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 14 Memory API
 
 ## 1. 메모리 공간의 종류

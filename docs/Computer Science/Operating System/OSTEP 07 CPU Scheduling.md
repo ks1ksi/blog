@@ -1,3 +1,8 @@
+---
+title: OSTEP 07 CPU Scheduling
+date created: 월요일, 7월 3일 2023, 1:13:45 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 07 CPU Scheduling
 
 ## 1. 워크로드에 대한 가정

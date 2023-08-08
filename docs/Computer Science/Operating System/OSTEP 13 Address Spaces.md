@@ -1,3 +1,8 @@
+---
+title: OSTEP 13 Address Spaces
+date created: 화요일, 7월 4일 2023, 6:58:20 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 13 Address Spaces
 
 ## 1. 초기 시스템

@@ -8,6 +8,9 @@ tistorySkipModal: false
 tistoryPublished: ""
 tistoryPostId: "19"
 tistoryPostUrl: https://ks1ksi.tistory.com/19
+title: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
+date created: 일요일, 7월 2일 2023, 9:01:40 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 ---
 # 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 

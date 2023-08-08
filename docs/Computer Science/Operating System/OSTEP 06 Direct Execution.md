@@ -1,3 +1,8 @@
+---
+title: OSTEP 06 Direct Execution
+date created: 일요일, 7월 2일 2023, 9:01:40 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 06 Direct Execution
 
 여러 작업들이 동시에 실행되는 것처럼 보이도록 하는 방법 -> CPU 시간을 나누어 쓰면 된다. 한 프로세스를 잠시동안 실행하고, 다른 프로세스를 또 잠깐 실행하고 하면서 물리적인 CPU를 공유한다. 

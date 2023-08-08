@@ -1,3 +1,8 @@
+---
+title: OSTEP 15 Address Translation
+date created: 월요일, 7월 17일 2023, 11:29:07 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 15 Address Translation
 
 CPU 가상화 부분에서 **제한적 직접 실행 (LDE)** 기법에 대해 배웠다. [[OSTEP 06 Direct Execution]]

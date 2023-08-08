@@ -1,7 +1,7 @@
 ---
 title: OSTEP 18 Introduction to Paging
 date created: 화요일, 8월 1일 2023, 3:07:00 오전
-date modified: 화요일, 8월 1일 2023, 6:15:53 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 ---
 # OSTEP 18 Introduction to Paging
 

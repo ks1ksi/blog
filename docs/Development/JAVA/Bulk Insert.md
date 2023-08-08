@@ -8,6 +8,9 @@ tistorySkipModal: true
 tistoryPublished: ""
 tistoryPostId: "13"
 tistoryPostUrl: https://ks1ksi.tistory.com/13
+title: Bulk Insert
+date created: 일요일, 7월 2일 2023, 9:01:40 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 ---
 # Bulk Insert
 

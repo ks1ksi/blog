@@ -1,3 +1,8 @@
+---
+title: OSTEP 10 Multi-CPU Scheduling
+date created: 화요일, 7월 4일 2023, 6:58:20 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 10 Multi-CPU Scheduling
 
 멀티프로세서 스케줄링의 기본을 알아보자. 나중에 병행성(concurrency)에 대해 공부하고 다시 복습하면 좋을 것이다.

@@ -1,3 +1,8 @@
+---
+title: OSTEP 09 Lottery Scheduling
+date created: 화요일, 7월 4일 2023, 6:58:20 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 09 Lottery Scheduling
 
 앞에서 배운 반환 시간 혹은 응답 시간을 최적화하는 스케줄러 대신, 각 작업에게 CPU의 일정 비율을 보장하는 것이 목적인 비례 배분 스케줄러에 대해 알아보자.

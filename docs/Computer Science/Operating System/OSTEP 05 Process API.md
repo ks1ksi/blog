@@ -1,3 +1,8 @@
+---
+title: OSTEP 05 Process Api
+date created: 일요일, 7월 2일 2023, 9:01:40 오후
+date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+---
 # OSTEP 05 Process Api
 
 ## 1. `fork()` 시스템 콜
