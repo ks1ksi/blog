@@ -1,7 +1,7 @@
 ---
 title: OSTEP 20 Advanced Page Tables
 date created: 화요일, 8월 1일 2023, 3:07:00 오전
-date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+date modified: 수요일, 8월 9일 2023, 3:42:15 오전
 ---
 # OSTEP 20 Advanced Page Tables
 
@@ -15,7 +15,7 @@ date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 
 ## 2. 하이브리드: 페이징과 세그먼트
 
-![[OSTEP 20 Advanced Page Tables-1690885995867.jpeg]]
+![[OSTEP 20 Advanced Page Tables-1691519881843.jpeg]]
 
 1KB 크기의 페이지를 갖는 16KB의 주소 공간을 예로 들어보자. 
 이 예제에서 한 개의 코드 페이지(VPN 0)가 물리 페이지 10번, 그리고 한 개의 힙 페이지(VPN 4)가 23번 물리 페이지에 매핑되어 있다. 가상 주소 공간의 끝부분에 두 개의 스택 페이지 (VPN 14, 15)가 물리 페이지 28번과 4번에 매핑되어 있다. 
@@ -28,7 +28,7 @@ date modified: 수요일, 8월 9일 2023, 12:30:08 오전
 
 우리 방식에서, 베이스 레지스터는 세그멘트 시작 주소가 아니라 세그멘트의 페이지 테이블의 시작 주소를 갖는다. 바운드 레지스터는 페이지 테이블의 끝을 나타내기 위해 사용한다.
 
-![[OSTEP 20 Advanced Page Tables-1690886292775.jpeg]]
+![[OSTEP 20 Advanced Page Tables-1691519905981.jpeg]]
 
 하드웨어에 세 개의 베이스/바운드 레지스터 쌍이 코드, 힙, 스택을 위해 존재한다고 가정해보자. 이 시스템에서 모든 프로세스는 세 개의 페이지 테이블을 갖는다.
 
@@ -51,7 +51,7 @@ AddressOfPTE = Base[SN] + (VPN * sizeof(PTE))
 
 페이지 테이블을 페이지 단위로 자른 뒤, 하나라도 유효한 entry가 없다면, 해당 페이지 테이블을 유지하지 않는 방식이다. 이를 처리하기 위해 멀티 레벨 페이지 테이블에는 페이지 디렉토리 (page directory) 라는 개념을 도입했다. 페이지 테이블의 페이지가 어디에 있는지, 해당 페이지 테이블에 유효한 페이지가 있는지를 알려주는 데 사용한다. 
 
-![[OSTEP 20 Advanced Page Tables-1690886798099.jpeg]]
+![[OSTEP 20 Advanced Page Tables-1691519923419.jpeg]]
 
 페이지 디렉토리에는 실제로 사용중인 두 개의 페이지 테이블에만 접근할 수 있도록 하여 메모리 낭비를 방지한다.
 
@@ -66,11 +66,11 @@ AddressOfPTE = Base[SN] + (VPN * sizeof(PTE))
 만약 페이지 디렉터리가 너무 커지면 어떻게 해야 할까?
 페이지 디렉터리 자체를 멀티 페이지들로 나누어서, 트리의 단계를 늘리는 방식으로 해결할 수 있다. 
 
-![[OSTEP 20 Advanced Page Tables-1690887120203.jpeg]]
+![[OSTEP 20 Advanced Page Tables-1691519976607.jpeg]]
 
 ## 4. 역 페이지 테이블
 
-![[OSTEP 20 Advanced Page Tables-1690887176107.jpeg]]
+![[OSTEP 20 Advanced Page Tables-1691520132956.jpeg]]
 
 물리 페이지를 가상 주소 상의 페이지로 변환한다. 
 순차 탐색을 하면 느리기 때문에, 해시 테이블 등을 사용한다. 

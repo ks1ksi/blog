@@ -1,7 +1,7 @@
 ---
 title: OSTEP 18 Introduction to Paging
 date created: 화요일, 8월 1일 2023, 3:07:00 오전
-date modified: 수요일, 8월 9일 2023, 12:30:08 오전
+date modified: 수요일, 8월 9일 2023, 3:37:25 오전
 ---
 # OSTEP 18 Introduction to Paging
 
@@ -60,7 +60,7 @@ movl 21, %eax
 
 이 가상 페이지 번호를 가지고 실제 물리 프레임 어디에 저장되어 있는지 찾을 수 있다.
 
-![[Pasted image 20230801172526.png]]
+![[OSTEP 18 Introduction to Paging-1691519804168.jpeg]]
 
 오프셋은 동일하고, 가상 주소 01을 물리 주소 111로 변환했다.
 
@@ -170,7 +170,7 @@ gcc -o array array.c -Wall -O
 프로세스의 가상 주소는 64KB이고 page 크기는 1KB라고 가정하자. 수행하기 위해 알아야 하는 것은 page table의 내용과 실제 메모리의 주소이다. 
 VPN 1페이지에 코드에 대한 정보가 있고, 이것은 PFN 4로 연결된다고 가정한다. array 의 VPN은 39, 40, 41, 42이고 각각의 PFN은 7, 8, 9, 10이다.
 
-![[OSTEP 18 Introduction to Paging-1690889018910.jpeg]]
+![[OSTEP 18 Introduction to Paging-1691519842728.jpeg]]
 
 코드가 실행될 때 명령어 fetch는 두 개의 메모리 참조를 생성한다.
 1. page table에 대한 메모리 참조
