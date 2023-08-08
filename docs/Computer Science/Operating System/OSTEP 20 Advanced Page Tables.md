@@ -1,7 +1,7 @@
 ---
 title: OSTEP 20 Advanced Page Tables
 date created: 화요일, 8월 1일 2023, 3:07:00 오전
-date modified: 화요일, 8월 1일 2023, 6:57:16 오후
+date modified: 화요일, 8월 8일 2023, 4:30:22 오후
 ---
 # OSTEP 20 Advanced Page Tables
 
