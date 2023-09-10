@@ -1,11 +1,13 @@
 ---
-title: 'OSTEP 22 Swapping: Policies'
+title: "OSTEP 22 Swapping: Policies"
 author: Seungil Kim
 pubDatetime: 2023-08-08T10:42:41.000Z
 tags: []
 featured: false
 description: ''
 postSlug: 'OSTEP 22 Swapping: Policies'
+aliases: ["OSTEP 22 Swapping: Policies"]
+linter-yaml-title-alias: "OSTEP 22 Swapping: Policies"
 ---
 # OSTEP 22 Swapping: Policies
 
@@ -19,7 +21,9 @@ postSlug: 'OSTEP 22 Swapping: Policies'
 캐시 히트와 미스이 횟수를 안다면, 프로그램의 평균 메모리 접근 시간 (Average memory access time, AMAT) 을 계산할 수 있다. 
 
 ![[OSTEP 22 Swapping Policies-1691492021156.jpeg]]
-$AMAT = (캐시 히트 확률 * 메모리 접근 비용) + (캐시 미스 확률 * 디스크 접근 비용)$
+
+$P_{Hit}$는 캐시 히트 확률, $P_{Miss}$는 캐시 미스 확률, $T_{M}$은 메모리 접근 비용, $T_{M}$은 디스크 접근 비용이다.
+
 ## 2. 최적 교체 정책
 
 최적 교체 정책은 미스를 최소화한다. 가장 나중에 접근될 페이지를 교체하는 것이 최적이며, 가장 적은 횟수의 미스를 발생시킨다는 것이 증명되었다. 
