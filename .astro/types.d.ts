@@ -203,6 +203,27 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Algorithm/알고리즘 123.md": {
+	id: "Computer Science/Algorithm/알고리즘 123.md";
+  slug: "computer-science/algorithm/알고리즘-123";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Algorithm/테스트.md": {
+	id: "Computer Science/Algorithm/테스트.md";
+  slug: "computer-science/algorithm/테스트";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Algorithm/테스트123231321213.md": {
+	id: "Computer Science/Algorithm/테스트123231321213.md";
+  slug: "computer-science/algorithm/테스트123231321213";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Database/JOIN.md": {
 	id: "Computer Science/Database/JOIN.md";
   slug: "computer-science/database/join";
@@ -339,6 +360,13 @@ declare module 'astro:content' {
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/안녕하세요.md": {
+	id: "Computer Science/Operating System/안녕하세요.md";
+  slug: "computer-science/operating-system/안녕하세요";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -615,6 +643,15 @@ declare module 'astro:content' {
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+};
+"templates": {
+"frontmatter.md": {
+	id: "frontmatter.md";
+  slug: "frontmatter";
+  body: string;
+  collection: "templates";
+  data: any
 } & { render(): Render[".md"] };
 };
 
