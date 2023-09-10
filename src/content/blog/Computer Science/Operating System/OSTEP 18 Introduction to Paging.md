@@ -5,7 +5,6 @@ pubDatetime: 2023-08-01T10:29:17.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 18 Introduction to Paging
 ---
 # OSTEP 18 Introduction to Paging

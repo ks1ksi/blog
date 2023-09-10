@@ -2,10 +2,11 @@
 title: SELECT
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - cs
+  - database
 featured: false
 description: ''
-ogImage: ''
 postSlug: SELECT
 ---
 # SELECT

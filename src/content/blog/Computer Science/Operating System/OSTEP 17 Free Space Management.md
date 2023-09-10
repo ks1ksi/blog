@@ -5,7 +5,6 @@ pubDatetime: 2023-08-01T10:29:17.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 17 Free Space Management
 ---
 # OSTEP 17 Free Space Management

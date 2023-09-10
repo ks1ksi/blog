@@ -5,7 +5,6 @@ pubDatetime: 2023-07-03T04:13:45.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 07 CPU Scheduling
 ---
 # OSTEP 07 CPU Scheduling

@@ -23,12 +23,15 @@ function updateFrontMatter(dirPath) {
         title: parsed.data.title,
         author: "Seungil Kim",
         pubDatetime: parsed.data.pubDatetime,
-        tags: [],
+        tags: parsed.data.tags,
         featured: false,
-        description: "",
-        ogImage: "",
+        description: parsed.data.description ?? "",
         postSlug: parsed.data.title,
       };
+
+      //   if (parsed.data.description === null) {
+      //     parsed.data.description = "";
+      //   }
 
       // Log for debugging
       console.log("After modification:", parsed.data);

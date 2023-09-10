@@ -5,7 +5,6 @@ pubDatetime: 2023-08-08T10:42:41.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: 'OSTEP 21 Swapping: Mechanisms'
 ---
 # OSTEP 21 Swapping: Mechanisms

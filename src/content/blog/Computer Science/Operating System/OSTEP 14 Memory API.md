@@ -5,7 +5,6 @@ pubDatetime: 2023-07-17T14:28:44.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 14 Memory API
 ---
 # OSTEP 14 Memory API

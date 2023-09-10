@@ -5,7 +5,6 @@ pubDatetime: 2023-07-02T12:01:40.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 교재
 ---
 # OSTEP 교재

@@ -5,7 +5,6 @@ pubDatetime: 2023-07-04T09:58:20.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 13 Address Spaces
 ---
 # OSTEP 13 Address Spaces

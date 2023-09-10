@@ -5,7 +5,6 @@ pubDatetime: 2023-07-17T14:29:55.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 16 Segmentation
 ---
 # OSTEP 16 Segmentation

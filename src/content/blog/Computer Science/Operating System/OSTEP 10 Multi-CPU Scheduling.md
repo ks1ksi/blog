@@ -5,7 +5,6 @@ pubDatetime: 2023-07-04T09:58:20.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 10 Multi-CPU Scheduling
 ---
 # OSTEP 10 Multi-CPU Scheduling

@@ -5,7 +5,6 @@ pubDatetime: 2023-07-02T12:01:40.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 ---
 # 2022 SKKU 프로그래밍 대회 in 소프트의 밤

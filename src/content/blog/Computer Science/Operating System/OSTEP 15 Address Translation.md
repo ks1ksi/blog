@@ -5,7 +5,6 @@ pubDatetime: 2023-07-17T14:29:07.000Z
 tags: []
 featured: false
 description: ''
-ogImage: ''
 postSlug: OSTEP 15 Address Translation
 ---
 # OSTEP 15 Address Translation
