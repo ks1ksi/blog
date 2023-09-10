@@ -58,7 +58,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["Noto Sans KR", "sans-serif"],
-      mono: ["JetBrains Mono", "monospace"],
+      mono: ["JetBrains Mono", "Noto Sans KR", "monospace"],
     },
     // },
   },

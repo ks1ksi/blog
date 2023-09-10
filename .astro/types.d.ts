@@ -336,6 +336,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md": {
+	id: "Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md";
+  slug: "computer-science/operating-system/ostep-26-concurrency-and-threads";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
