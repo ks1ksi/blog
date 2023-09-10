@@ -343,6 +343,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 27 Thread API.md": {
+	id: "Computer Science/Operating System/OSTEP 27 Thread API.md";
+  slug: "computer-science/operating-system/ostep-27-thread-api";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 28 Locks.md": {
+	id: "Computer Science/Operating System/OSTEP 28 Locks.md";
+  slug: "computer-science/operating-system/ostep-28-locks";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
