@@ -218,5 +218,134 @@ int List_Lookup(list_t *L, int key) {
 
 병행성을 개선하는 방법 중 하나로 hand-over-hand locking(또는 lock coupling) 이라는 기법을 개발했다.
 
-개념은 단순하다. 전체 리스트에 하나의 락이 있는 것이 아니라 개별 노드마다 락을 추가하는 것이다. 리스트를 순회할 때 다음 노드의 락을 먼저 획득하고 지금 노드의 락을 해제하도록 한다 (hand-over-hand라는 이름에 영감이 되었다).
+개념은 단순하다. 전체 리스트에 하나의 락이 있는 것이 아니라 개별 노드마다 락을 추가하는 것이다. 리스트를 순회할 때 다음 노드의 락을 먼저 획득하고 지금 노드의 락을 해제하도록 한다.
 
+```c
+void List_Init(list_t *L) {
+	L−>head = NULL;
+	pthread_mutex_init(&L−>lock, NULL);
+}
+
+void List_Insert(list_t *L, int key) {
+	// 동기화를 할 필요 없음
+	node_t *new = malloc(sizeof(node_t));
+	
+	if (new == NULL) {
+		perror(“malloc ”);
+		return;
+	}
+	new−>key = key;
+
+	// 임계 영역만 락으로 보호
+	pthread_mutex_lock(&L−>lock);
+	new−>next = L−>head;
+	L−>head = new;
+	pthread_mutex_unlock(&L−>lock);
+}
+
+int List_Lookup(list_t *L, int key) {
+	int rv = −1;
+	pthread_mutex_lock(&L−>lock);
+	node_t *curr = L−>head;
+	while (curr) {
+		if (curr−>key == key) {
+			rv = 0;
+			break;
+		}
+		curr = curr−>next;
+	}
+	pthread_mutex_unlock(&L−>lock);
+	return rv; // 성공 혹은 실패
+}
+```
+
+리스트 연산에 병행성이 높아지기 때문에 괜찮은 것처럼 보인다. 하지만, 리스트를 순회할 때 **각 노드에 락을 획득하고 해제하는 오버헤드가 매우 크기 때문에 속도 개선을 기대하기 쉽지 않다.**
+
+> 락 획득/해제와 같이 부하가 큰 연산을 추가하여 자료 구조를 설계했다면, 병행성 자체가 좋아졌다는 것은 큰 의미가 없다. 오히려, 부하가 큰 루틴은 거의 사용하지 않는 간단한 방법이 더 좋다. 락을 많이 추가하고 복잡도가 증가하면 큰 단점이 된다. 어느 것이 더 좋은지 알 수 있는 방법은 딱 한 가지이다. 간단하지만 병행성이 떨어지는 것과 복잡하지만 병행성이 높은 두 경우를 다 구현하고 성능을 측정해 보아야 한다. 성능을 속일 수는 없지 않는가. 결과는 “좋다”, “나쁘다” 둘 중에 하나일 테니까 말이다.
+
+## 3. 병행 큐
+
+```c
+typedef struct _ _node_t {
+	int value;
+	struct __node_t *next;
+} node_t;
+
+typedef struct __queue_t {
+	node_t *head;
+	node_t *tail;
+	pthread_mutex_t headLock;
+	pthread_mutex_t tailLock;
+} queue_t;
+
+void Queue_Init(queue_t *q) {
+	node_t *tmp = malloc(sizeof(node_t));
+	tmp−>next = NULL;
+	q−>head = q−>tail = tmp;
+	pthread_mutex_init(&q−>headLock, NULL);
+	pthread_mutex_init(&q−>tailLock, NULL);
+}
+
+void Queue_Enqueue(queue_t *q, int value) {
+	node_t *tmp = malloc(sizeof(node_t));
+	assert(tmp != NULL);
+	tmp−>value = value;
+	tmp−>next = NULL;
+	
+	pthread_mutex_lock(&q−>tailLock);
+	q−>tail−>next = tmp;
+	q−>tail = tmp;
+	pthread_mutex_unlock(&q−>tailLock);
+}
+
+int Queue_Dequeue(queue_t *q, int *value) {
+	pthread_mutex_lock(&q−>headLock);
+	node_t *tmp = q−>head;
+	node_t *newHead = tmp−>next;
+	if (newHead == NULL) {
+		pthread_mutex_unlock(&q−>headLock);
+		return −1;
+	}
+	*value = newHead−>value;
+	q−>head = newHead;
+	pthread_mutex_unlock(&q−>headLock);
+	free(tmp);
+	return 0;
+}
+```
+
+## 4. 병행 해시 테이블
+
+전체 자료 구조에 하나의 락을 사용한 것이 아니라 해시 버켓 (리스트로 구현되어 있음) 마다 락을 사용하여서 성능이 우수하다.
+
+```c
+#define BUCKETS ()
+
+typedef struct __hash_t {
+	list_t lists[BUCKETS];
+} hash_t;
+ 
+void Hash_Init(hash_t *H) {
+	int i;
+	for (i = ; i < BUCKETS; i++) {
+		List_Init(&H−>lists[i]);
+	}
+}
+
+int Hash_Insert(hash_t *H, int key) {
+	int bucket = key % BUCKETS;
+	return List_Insert(&H−>lists[bucket], key);
+}
+
+int Hash_Lookup(hash_t *H, int key) {
+	int bucket = key % BUCKETS;
+	return List_Lookup(&H−>lists[bucket], key);
+}
+```
+
+![[Pasted image 20230911172858.png]]
+
+## 5. 요약
+락 획득과 해제 시 코드의 흐름에 매우 주의를 기울여야 한다. 병행성 개선이 반드시 성능 개선으로 이어지는 것은 아니다. 성능 개선은 성능에 문제가 생길 경우에만 해결책을 강구해야 한다. 
+
+락을 전여 사용하지 않는 동기화 기법들고 추후에 다룰 것이다.

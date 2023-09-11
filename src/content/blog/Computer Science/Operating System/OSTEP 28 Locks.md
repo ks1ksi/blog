@@ -493,7 +493,6 @@ void mutex_unlock (int *mutex) {
 	futex_wake (mutex);
 ```
 
-
 ## 16. 2단계 락
 
 2단계 락 기법은 **락이 곧 해제될 것 같은 경우라면 회전 대기가 유용할 수 있다**는 것에서 착안하였다.
