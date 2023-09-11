@@ -1,7 +1,7 @@
 ---
 title: Beanstalk 환경변수 추출
 author: Seungil Kim
-description: 
+description: Elastic Beanstalk으로 배포한 애플리케이션의 환경 변수를 얻어보자.
 postSlug: Beanstalk 환경변수 추출
 featured: false
 tags:
