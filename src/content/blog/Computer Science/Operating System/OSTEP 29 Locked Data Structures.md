@@ -343,8 +343,7 @@ int Hash_Lookup(hash_t *H, int key) {
 }
 ```
 
-![[Pasted image 20230911172858.png]]
-
+![[OSTEP 29 Locked Data Structures-1694421703747.jpeg]]
 ## 5. 요약
 락 획득과 해제 시 코드의 흐름에 매우 주의를 기울여야 한다. 병행성 개선이 반드시 성능 개선으로 이어지는 것은 아니다. 성능 개선은 성능에 문제가 생길 경우에만 해결책을 강구해야 한다. 
 
