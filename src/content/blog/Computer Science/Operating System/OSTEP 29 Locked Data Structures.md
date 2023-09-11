@@ -4,7 +4,9 @@ author: Seungil Kim
 description: 락 기반의 병행 자료 구조에 대해 알아보자
 postSlug: OSTEP 29 Locked Data Structures
 featured: false
-tags: []
+tags:
+  - cs
+  - os
 pubDatetime: 2023-09-11T11:30:05+09:00
 ---
 # OSTEP 29 Locked Data Structures
@@ -347,4 +349,4 @@ int Hash_Lookup(hash_t *H, int key) {
 ## 5. 요약
 락 획득과 해제 시 코드의 흐름에 매우 주의를 기울여야 한다. 병행성 개선이 반드시 성능 개선으로 이어지는 것은 아니다. 성능 개선은 성능에 문제가 생길 경우에만 해결책을 강구해야 한다. 
 
-락을 전여 사용하지 않는 동기화 기법들고 추후에 다룰 것이다.
+락을 전혀 사용하지 않는 동기화 기법들도 추후에 다룰 것이다.
