@@ -504,5 +504,4 @@ void mutex_unlock (int *mutex) {
 앞서 본 Linux의 락은 이러한 형태를 밖는 락이지만 한 번만 회전한다. 일반화된 방법은 `futex`가 잠재우기 전에 일정 시간 동안 반복문 내에서 회전하도록 하는 것이다. 2 단계 락은 두 개의 좋은 개념을 사용하여 개선된 하나를 만들어 내는 하이브리드 방식의 일종이다.
 
 ### 뜬금없지만 책 추천
-https://www.aladin.co.kr/m/mproduct.aspx?ItemId=291746395
 [동시성 프로그래밍 - Rust, C, 어셈블리어로 구현하며 배우는 동시성 프로그래밍 A to Z](https://www.aladin.co.kr/m/mproduct.aspx?ItemId=291746395)
