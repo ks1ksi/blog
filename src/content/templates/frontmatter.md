@@ -1,7 +1,7 @@
 ---
 title: "{{title}}"
 author: Seungil Kim
-description: 
+description: ""
 postSlug: "{{title}}"
 featured: false
 tags: []

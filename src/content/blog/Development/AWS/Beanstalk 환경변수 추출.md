@@ -25,4 +25,4 @@ sudo /opt/elasticbeanstalk/bin/get-config --output YAML environment > .env
 ```
 
 ![[Beanstalk 환경변수 추출-1694452040551.jpeg]]
-성공..!
+성공...!

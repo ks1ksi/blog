@@ -371,93 +371,100 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/1. 아키텍팅.md": {
-	id: "Development/AWS/1. 아키텍팅.md";
-  slug: "development/aws/1-아키텍팅";
+"Development/AWS/Architecting on AWS/1. 아키텍팅.md": {
+	id: "Development/AWS/Architecting on AWS/1. 아키텍팅.md";
+  slug: "development/aws/architecting-on-aws/1-아키텍팅";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/10. 네트워킹 2.md": {
-	id: "Development/AWS/10. 네트워킹 2.md";
-  slug: "development/aws/10-네트워킹-2";
+"Development/AWS/Architecting on AWS/10. 네트워킹 2.md": {
+	id: "Development/AWS/Architecting on AWS/10. 네트워킹 2.md";
+  slug: "development/aws/architecting-on-aws/10-네트워킹-2";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/11. 서버리스.md": {
-	id: "Development/AWS/11. 서버리스.md";
-  slug: "development/aws/11-서버리스";
+"Development/AWS/Architecting on AWS/11. 서버리스.md": {
+	id: "Development/AWS/Architecting on AWS/11. 서버리스.md";
+  slug: "development/aws/architecting-on-aws/11-서버리스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/12. 엣지 서비스.md": {
-	id: "Development/AWS/12. 엣지 서비스.md";
-  slug: "development/aws/12-엣지-서비스";
+"Development/AWS/Architecting on AWS/12. 엣지 서비스.md": {
+	id: "Development/AWS/Architecting on AWS/12. 엣지 서비스.md";
+  slug: "development/aws/architecting-on-aws/12-엣지-서비스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/13. 백업 및 복구.md": {
-	id: "Development/AWS/13. 백업 및 복구.md";
-  slug: "development/aws/13-백업-및-복구";
+"Development/AWS/Architecting on AWS/13. 백업 및 복구.md": {
+	id: "Development/AWS/Architecting on AWS/13. 백업 및 복구.md";
+  slug: "development/aws/architecting-on-aws/13-백업-및-복구";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/2. 계정 보안.md": {
-	id: "Development/AWS/2. 계정 보안.md";
-  slug: "development/aws/2-계정-보안";
+"Development/AWS/Architecting on AWS/2. 계정 보안.md": {
+	id: "Development/AWS/Architecting on AWS/2. 계정 보안.md";
+  slug: "development/aws/architecting-on-aws/2-계정-보안";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/3. 네트워킹 1.md": {
-	id: "Development/AWS/3. 네트워킹 1.md";
-  slug: "development/aws/3-네트워킹-1";
+"Development/AWS/Architecting on AWS/3. 네트워킹 1.md": {
+	id: "Development/AWS/Architecting on AWS/3. 네트워킹 1.md";
+  slug: "development/aws/architecting-on-aws/3-네트워킹-1";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/4. 컴퓨팅.md": {
-	id: "Development/AWS/4. 컴퓨팅.md";
-  slug: "development/aws/4-컴퓨팅";
+"Development/AWS/Architecting on AWS/4. 컴퓨팅.md": {
+	id: "Development/AWS/Architecting on AWS/4. 컴퓨팅.md";
+  slug: "development/aws/architecting-on-aws/4-컴퓨팅";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/5. 스토리지.md": {
-	id: "Development/AWS/5. 스토리지.md";
-  slug: "development/aws/5-스토리지";
+"Development/AWS/Architecting on AWS/5. 스토리지.md": {
+	id: "Development/AWS/Architecting on AWS/5. 스토리지.md";
+  slug: "development/aws/architecting-on-aws/5-스토리지";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/6. 데이터베이스 서비스.md": {
-	id: "Development/AWS/6. 데이터베이스 서비스.md";
-  slug: "development/aws/6-데이터베이스-서비스";
+"Development/AWS/Architecting on AWS/6. 데이터베이스 서비스.md": {
+	id: "Development/AWS/Architecting on AWS/6. 데이터베이스 서비스.md";
+  slug: "development/aws/architecting-on-aws/6-데이터베이스-서비스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/7. 모니터링 및 크기 조정.md": {
-	id: "Development/AWS/7. 모니터링 및 크기 조정.md";
-  slug: "development/aws/7-모니터링-및-크기-조정";
+"Development/AWS/Architecting on AWS/7. 모니터링 및 크기 조정.md": {
+	id: "Development/AWS/Architecting on AWS/7. 모니터링 및 크기 조정.md";
+  slug: "development/aws/architecting-on-aws/7-모니터링-및-크기-조정";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/8. 자동화.md": {
-	id: "Development/AWS/8. 자동화.md";
-  slug: "development/aws/8-자동화";
+"Development/AWS/Architecting on AWS/8. 자동화.md": {
+	id: "Development/AWS/Architecting on AWS/8. 자동화.md";
+  slug: "development/aws/architecting-on-aws/8-자동화";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/9. 컨테이너.md": {
-	id: "Development/AWS/9. 컨테이너.md";
-  slug: "development/aws/9-컨테이너";
+"Development/AWS/Architecting on AWS/9. 컨테이너.md": {
+	id: "Development/AWS/Architecting on AWS/9. 컨테이너.md";
+  slug: "development/aws/architecting-on-aws/9-컨테이너";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Development/AWS/Beanstalk 환경변수 추출.md": {
+	id: "Development/AWS/Beanstalk 환경변수 추출.md";
+  slug: "development/aws/beanstalk-환경변수-추출";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
