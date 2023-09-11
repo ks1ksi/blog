@@ -110,5 +110,113 @@ int get(counter_t *c) {
 
 ![[OSTEP 29 Locked Data Structures-1694400927480.jpeg]]
 
+$S$값이 낮다면 성능이 낮은 대신 전역 카운터의 값이 매우 정확해진다. $S$값이 높다면 성능은 탁월하지만 전역 카운터의 값은 CPU의 개수와 $S$의 곱만큼 뒤쳐지게 된다.
 
+```c
+typedef struct __counter_t {
+	int global;
+	pthread_mutex_t glock;
+	int local[NUMCPUS];
+	pthread_mutex_t llock[NUMCPUS]; 
+	int threshold;
+} counter_t;
+
+void init(counter_t *c, int threshold) {
+	c−>threshold = threshold;
+	
+	c−>global = 0;
+	pthread_mutex_init(&c−>glock, NULL);
+	
+	int i;
+	for (i = 0; i < NUMCPUS; i++) {
+		c−>local[i] = 0;
+		pthread_mutex_init(&c−>llock[i], NULL);
+	}
+}
+
+void update(counter_t *c, int threadID, int amt) {
+	pthread_mutex_lock(&c−>llock[threadID]);
+	c−>local[threadID] += amt; 
+	if (c−>local[threadID] >= c−>threshold) {
+		pthread_mutex_lock(&c−>glock);
+		c−>global += c−>local[threadID];
+		pthread_mutex_unlock(&c−>glock);
+		c−>local[threadID] = 0;
+	}
+	pthread_mutex_unlock(&c−>llock[threadID]);
+}
+
+int get(counter_t *c) {
+	pthread_mutex_lock(&c−>glock);
+	int val = c−>global;
+	pthread_mutex_unlock(&c−>glock);
+	return val;
+}
+```
+
+## 2. 병행 연결 리스트
+
+이제 조금 더 복잡한 구조인 연결 리스트를 다뤄보자. 간단하게 하기 위해 **병행 삽입 연산**만 살펴보도록 하자.
+
+```c
+typedef struct __node_t {
+	int key;
+	struct __node_t *next;
+} node_t;
+
+typedef struct __list_t {
+	node_t *head;
+	pthread_mutex_t lock;
+} list_t;
+
+void List_Init(list_t *L) {
+	L−>head = NULL;
+	pthread_mutex_init(&L−>lock, NULL);
+}
+
+int List_Insert(list_t *L, int key) {
+	pthread_mutex_lock(&L−>lock);
+	node_t *new = malloc(sizeof(node_t));
+	if (new == NULL) {
+		perror(“malloc ”);
+		pthread_mutex_unlock(&L−>lock);
+		return −1;
+	}
+	new−>key = key;
+	new−>next = L−>head;
+	L−>head = new;
+	pthread_mutex_unlock(&L−>lock);
+	return 0;
+}
+
+int List_Lookup(list_t *L, int key) {
+	pthread_mutex_lock(&L−>lock);
+	node_t *curr = L−>head;
+	while (curr) {
+		if (curr−>key == key) {
+			pthread_mutex_unlock(&L−>lock);
+			return 0;
+		}
+		curr = curr−>next;
+	}
+	pthread_mutex_unlock(&L−>lock);
+	return −1;
+}
+```
+
+삽인 연산을 시작하기 전에 락을 획득하고 리턴 직전에 해제한다. 매우 드문 경우지만 `malloc()`이 실패할 경우에 미묘한 문제가 생길 수 있다. 그런 경우 실패를 처리하기 전에 락을 해제해야 한다. 
+
+삽입 연산이 병행하여 진행되는 상황에서 실패를 하더라도 락 해제를 호출하지 않으면서 삽입과 검색이 올바르게 동작하도록 수정할 수 있을까? 삽입 코드에서 임계 영역을 처리하는 부분만 락으로 감싸도록 코드 순서를 변경하고, 검색 코드의 종료는 검색과 삽입 모두 동일한 코드 패스를 사용토록 할 수 있다.
+
+이 방법이 동작하는 이유는 **코드 일부는 사실 락이 필요 없기 때문**이다.
+
+`malloc()` 자체가 thread safe하다면, 쓰레드는 언제든지 경쟁 조건과 다른 병행성 관련 버그를 걱정하지 않으면서 검색할 수 있다. 공유 리스트 갱신 때에만 락을 획득하면 된다.
+
+### 확장성 있는 연결 리스트
+
+병행이 가능한 연결 리스트를 갖게 되었지만, 확장성이 좋지 않다는 문제가 있다. 이를 해결해보자.
+
+병행성을 개선하는 방법 중 하나로 hand-over-hand locking(또는 lock coupling) 이라는 기법을 개발했다.
+
+개념은 단순하다. 전체 리스트에 하나의 락이 있는 것이 아니라 개별 노드마다 락을 추가하는 것이다. 리스트를 순회할 때 다음 노드의 락을 먼저 획득하고 지금 노드의 락을 해제하도록 한다 (hand-over-hand라는 이름에 영감이 되었다).
 
