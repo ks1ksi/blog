@@ -357,6 +357,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 29 Locked Data Structures.md": {
+	id: "Computer Science/Operating System/OSTEP 29 Locked Data Structures.md";
+  slug: "computer-science/operating-system/ostep-29-locked-data-structures";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
