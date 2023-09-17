@@ -36,7 +36,7 @@ void increment(counter_t *c) {
 }
 
 void decrement(counter_t *c) {
-c−>value−−;
+	c−>value−−;
 }
 
 int get(counter_t *c) {
@@ -48,7 +48,7 @@ int get(counter_t *c) {
 위에서 정의한 카운터르 어떻게 하면 **thread safe**하게 만들 수 있을까?
 
 ```c
-typedef struct _ _counter_t {
+typedef struct __counter_t {
 	int value;
 	pthread_mutex_t lock;
 } counter_t;
@@ -270,7 +270,7 @@ int List_Lookup(list_t *L, int key) {
 ## 3. 병행 큐
 
 ```c
-typedef struct _ _node_t {
+typedef struct __node_t {
 	int value;
 	struct __node_t *next;
 } node_t;
