@@ -5,6 +5,8 @@ import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { visit } from "unist-util-visit";
+import { convertImageLink } from "./src/utils/convertImageLink";
+import { convertWikiLink } from "./src/utils/convertWikiLink";
 
 // https://astro.build/config
 export default defineConfig({
@@ -28,47 +30,9 @@ export default defineConfig({
         },
       ],
       // Convert Obsidian image syntax
-      () => {
-        return (tree) => {
-          visit(tree, "text", (node, index, parent) => {
-            const obsidianImageRegex = /!\[\[([^\]]+)\]\]/g;
-            let match;
-            let lastIndex = 0;
-            const newNodes = [];
-
-            while ((match = obsidianImageRegex.exec(node.value)) !== null) {
-              const [fullMatch, imageName] = match;
-              const start = match.index;
-              const end = obsidianImageRegex.lastIndex;
-
-              if (start !== lastIndex) {
-                newNodes.push({
-                  type: "text",
-                  value: node.value.slice(lastIndex, start),
-                });
-              }
-
-              newNodes.push({
-                type: "image",
-                url: `/image/${imageName}`, // 경로를 `public/image`에 맞춰서 수정
-                alt: imageName,
-              });
-
-              lastIndex = end;
-            }
-
-            if (newNodes.length > 0) {
-              if (lastIndex < node.value.length) {
-                newNodes.push({
-                  type: "text",
-                  value: node.value.slice(lastIndex),
-                });
-              }
-              parent.children.splice(index, 1, ...newNodes);
-            }
-          });
-        };
-      },
+      convertImageLink,
+      // Convert Obsidian wiki link syntax
+      convertWikiLink,
     ],
     shikiConfig: {
       theme: "dracula",
