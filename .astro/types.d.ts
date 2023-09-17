@@ -364,6 +364,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 30 Condition Variables.md": {
+	id: "Computer Science/Operating System/OSTEP 30 Condition Variables.md";
+  slug: "computer-science/operating-system/ostep-30-condition-variables";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 31 Semaphores.md": {
+	id: "Computer Science/Operating System/OSTEP 31 Semaphores.md";
+  slug: "computer-science/operating-system/ostep-31-semaphores";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";

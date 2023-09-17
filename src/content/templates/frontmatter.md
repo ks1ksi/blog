@@ -6,3 +6,6 @@ postSlug: "{{title}}"
 featured: false
 tags: []
 ---
+# {{title}}
+
+## Table of Contents
