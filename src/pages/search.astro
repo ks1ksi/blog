@@ -13,7 +13,7 @@ const posts = await getCollection("blog", ({ data }) => !data.draft);
 // List of items to search in
 const searchList = posts.map(({ data }) => ({
   title: data.title,
-  description: data.description,
+  description: data.description || "",
   data,
 }));
 ---

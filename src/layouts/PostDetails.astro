@@ -25,7 +25,7 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.png`, Astro.url.origin)
 <Layout
   title={title}
   author={author}
-  description={description}
+  description={description || ""}
   ogImage={ogUrl}
   canonicalURL={canonicalURL}
 >

@@ -1,17 +1,19 @@
 ---
 title: 2023 SKKU AI 교육 해커톤 후기
 author: Seungil Kim
-description: ""
+description: 
 postSlug: 2023 SKKU AI 교육 해커톤 후기
 featured: true
 tags:
   - dev
   - skku
+pubDatetime: 2023-09-24T18:04:29+09:00
 ---
 # 2023 SKKU AI 교육 해커톤 후기
 
 ## Table of Contents
 
+## 포스터
 
 ![[2023 SKKU AI 교육 해커톤 후기-1695546579346.jpeg]]
 
@@ -44,3 +46,5 @@ tags:
 1등했다~~
 상금 300에서 200으로 줄었던데 상당히 아쉬운 부분이다.
 내년에도 참가해서 1등 타먹고 졸업하고 싶다. 맛있겠다 ~
+
+그리고 야식으로 황올, 푸라닭, 피자 줬는데 너무 맛있었다. 레드불도 4캔은 마시고, 6캔은 집에 가져갔다. 이 귀한걸 왜 다들 남길까? 이해할 수 없다.
