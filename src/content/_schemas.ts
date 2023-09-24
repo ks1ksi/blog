@@ -10,7 +10,7 @@ export const blogSchema = z
     draft: z.boolean().optional(),
     tags: z.array(z.string()).default(["others"]),
     ogImage: z.string().optional(),
-    description: z.string(),
+    description: z.union([z.string(), z.null()]).transform((val) => val === null ? "" : val),
     canonicalURL: z.string().optional(),
   });
 

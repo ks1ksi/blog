@@ -497,6 +497,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Life/2023 SKKU AI 교육 해커톤 후기.md": {
+	id: "Life/2023 SKKU AI 교육 해커톤 후기.md";
+  slug: "life/2023-skku-ai-교육-해커톤-후기";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Life/2023 새해 목표.md": {
 	id: "Life/2023 새해 목표.md";
   slug: "life/2023-새해-목표";
