@@ -4,7 +4,9 @@ author: Seungil Kim
 description: 일반적인 병행성 관련 오류에 대해 알아보자
 postSlug: OSTEP 32 Concurrency Bugs
 featured: false
-tags: 
+tags:
+  - os
+  - cs
 pubDatetime: 2023-09-25T16:40:33+09:00
 ---
 # OSTEP 32 Concurrency Bugs
@@ -173,7 +175,7 @@ v1.addAll(v2);
 - **상호 배제 (Mutual Exclusion)**: 쓰레드가 자신이 필요로 하는 자원에 대한 독자적인 제어권을 주장한다 (예, 쓰레드가 락을 획득함).
 - **점유 및 대기 (Hold-and-wait)**: 쓰레드가 자신에게 할당된 자원 (예 : 이미 획득한 락)을 점유한 채로 다른 자원 (예 : 획득하고자 하는 락)을 대기한다.
 - **비 선점 (No preemption)**: 자원 (락)을 점유하고 있는 쓰레드로부터 자원을 강제적 으로 빼앗을 수 없다.
-- **환형 대기 (Circular wait)**: 각 쓰레드는 다음 쓰레드가 요청한 하나 또는 그 이상의 자원 (락)을 갖고 있는 쓰레드들의 순환 고리가 있다.
+- **순환 대기 (Circular wait)**: 각 쓰레드는 다음 쓰레드가 요청한 하나 또는 그 이상의 자원 (락)을 갖고 있는 쓰레드들의 순환 고리가 있다.
 
 이 네 조건 중 하나라도 만족시키지 않는다면, 교착 상태는 발생하지 않는다. 
 
