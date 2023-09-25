@@ -104,7 +104,7 @@ int main(void) {
 			FD_SET(fd, &readFDs);
 
 		// select
-		int rc = select(maxFD+, &readFDs, NULL, NULL, NULL);
+		int rc = select(maxFD, &readFDs, NULL, NULL, NULL);
 		
 		// FD_ISSET()을 사용하여 실제 데이터 사용 여부 검사
 		int fd;
