@@ -150,10 +150,10 @@ Mac OS X가 제공하는 인터페이스를 살펴보자.
 
 ```c
 struct aiocb {
-	int aio_fildes; /* File descriptor */
-	off_t aio_offset; /* File offset */
-	volatile void *aio_buf; /* Location of buffer */
-	size_t aio_nbytes; /* Length of transfer */
+	int            aio_fildes; /* File descriptor */
+	off_t          aio_offset; /* File offset */
+	volatile void    *aio_buf; /* Location of buffer */
+	size_t         aio_nbytes; /* Length of transfer */
 };
 ```
 
@@ -218,4 +218,4 @@ rc = write(sd, buffer, size);
 
 마지막으로, 비동기 디스크 I/O가 대부분의 플랫폼에서 사용되기까지는 매우 오래 걸렸으며, 아직까지도 비동기 네트워크 I/O는 일관성 있게 적용되어 있지 않다. 예를 들면, 모든 입출력 처리에 `select()`를 사용하는 것이 이상적이지만, 일반적으로 네트워크 요청의 처리에는 `select()`, 디스크 I/O에는 AIO가 사용되고 있다.
 
-[nodejs dont block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop)
+[node.js - dont block event loop](https://nodejs.org/en/docs/guides/dont-block-the-event-loop)
