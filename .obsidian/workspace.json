@@ -1,0 +1,208 @@
+{
+  "main": {
+    "id": "b169cac0a8c0388a",
+    "type": "split",
+    "children": [
+      {
+        "id": "1202d527dc9590b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e6613f2c0dfe198",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "768474863b89d6e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3520aeeda0fb8c99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58c8520f7558978c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "84268cc38b280fb1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "871c7fc7b5baf040",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fad9ac1c0bae1a22",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f4b46d2a4386764",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd32ffbcf449c423",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "78bc781223cbe3a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e01f821b2681c6a9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f9a4552a3d76db42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md"
+              }
+            }
+          },
+          {
+            "id": "5ca4b81651dc08b8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian42-brat:BRAT": false
+    }
+  },
+  "active": "1e6613f2c0dfe198",
+  "lastOpenFiles": [
+    "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 30 Condition Variables.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 27 Thread API.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 29 Locked Data Structures.md",
+    "public/image/OSTEP 32 Concurrency Bugs-1695644733954.jpeg",
+    "public/image/OSTEP 32 Concurrency Bugs-1695644714303.jpeg",
+    "public/image/OSTEP 32 Concurrency Bugs-1695644689116.jpeg",
+    "public/image/OSTEP 32 Concurrency Bugs-1695644612328.jpeg",
+    "().md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 31 Semaphores.md",
+    "public/image/OSTEP 32 Concurrency Bugs-1695639772958.jpeg",
+    "Pasted image 20230925200247.png.md",
+    "public/image/OSTEP 32 Concurrency Bugs-1695639767926.jpeg",
+    "public/image/OSTEP 32 Concurrency Bugs-1695629446329.jpeg",
+    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
+    "public/image/2023 SKKU AI 교육 해커톤 후기-1695547167527.jpeg",
+    "public/image/2023 SKKU AI 교육 해커톤 후기-1695546954555.jpeg",
+    "public/image/2023 SKKU AI 교육 해커톤 후기-1695546943246.jpeg",
+    "src/content/blog/Computer Science/무제 파일.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 30 asdf.md",
+    "src/content/templates/frontmatter.md",
+    "src/content/blog/PS/BOJ/백준 25953번 템포럴 그래프.md",
+    "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
+    "src/utils/convertImageLink.ts",
+    "src/utils/convertImageLink.ㅅㅌ",
+    "src/utils/convertWikiLink.ts",
+    "src/utils/convertImageLink",
+    "src/utils/convertWiki.ts",
+    "src/content/blog/Development/AWS/Beanstalk 환경변수 추출.md",
+    "node_modules/rehype-parse/node_modules/unified/lib/callable-instance.js",
+    "node_modules/rehype-parse/node_modules/unified/lib/index.d.ts",
+    "node_modules/rehype-parse/node_modules/unified/lib/index.js",
+    "node_modules/rehype-parse/node_modules/unified/lib/callable-instance.d.ts",
+    "node_modules/rehype-parse/node_modules/unified/readme.md",
+    "node_modules/rehype-parse/node_modules/unified/package.json",
+    "node_modules/rehype-parse/node_modules/vfile/readme.md",
+    "node_modules/rehype-parse/node_modules/vfile-message/readme.md",
+    "node_modules/rehype-parse/node_modules/unist-util-stringify-position/readme.md",
+    "node_modules/rehype-parse/node_modules/@types/unist/README.md",
+    "node_modules/rehype-parse/node_modules/@types/hast/README.md",
+    "node_modules/@ungap/structured-clone/README.md",
+    "node_modules/hast-util-from-html/node_modules/@types/unist/README.md"
+  ]
+}
