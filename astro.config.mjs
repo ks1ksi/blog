@@ -1,10 +1,9 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
-import remarkToc from "remark-toc";
-import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
-import { visit } from "unist-util-visit";
+import tailwind from "@astrojs/tailwind";
+import { defineConfig } from "astro/config";
+import remarkCollapse from "remark-collapse";
+import remarkToc from "remark-toc";
 import { convertImageLink } from "./src/utils/convertImageLink";
 import { convertWikiLink } from "./src/utils/convertWikiLink";
 
@@ -45,4 +44,5 @@ export default defineConfig({
       exclude: ["@resvg/resvg-js"],
     },
   },
+  scopedStyleStrategy: "where",
 });
