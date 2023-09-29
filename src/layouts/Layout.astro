@@ -36,15 +36,6 @@ const socialImageURL = new URL(
     <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
-    <meta
-      name="google-site-verification"
-      content="_jiLl4hawUV8PeVmaUCnRX2MusG9JXB28gzRqvcgcNg"
-    />
-    <meta
-      name="naver-site-verification"
-      content="783ce4689d59dca6919d5f57753c2cf1c92c6496"
-    />
-
     <!-- General Meta Tags -->
     <title>{title}</title>
     <meta name="title" content={title} />
@@ -72,14 +63,8 @@ const socialImageURL = new URL(
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+
+    <meta name="theme-color" content="" />
 
     {
       // If PUBLIC_GOOGLE_SITE_VERIFICATION is set in the environment variable,
@@ -92,25 +77,11 @@ const socialImageURL = new URL(
         />
       )
     }
+
+    <ViewTransitions />
+
+    <script is:inline src="/toggle-theme.js"></script>
   </head>
-
-  <script is:inline src="/toggle-theme.js"></script>
-  <script
-    type="text/javascript"
-    async
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
-  ></script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        inlineMath: [
-          ["$", "$"],
-          ["\\(", "\\)"],
-        ],
-      },
-    });
-  </script>
-
   <body>
     <slot />
   </body>
