@@ -10,26 +10,14 @@ declare module 'astro:content' {
 
 declare module 'astro:content' {
 	export { z } from 'astro/zod';
-	export type CollectionEntry<C extends keyof AnyEntryMap> = AnyEntryMap[C][keyof AnyEntryMap[C]];
 
-	// TODO: Remove this when having this fallback is no longer relevant. 2.3? 3.0? - erika, 2023-04-04
-	/**
-	 * @deprecated
-	 * `astro:content` no longer provide `image()`.
-	 *
-	 * Please use it through `schema`, like such:
-	 * ```ts
-	 * import { defineCollection, z } from "astro:content";
-	 *
-	 * defineCollection({
-	 *   schema: ({ image }) =>
-	 *     z.object({
-	 *       image: image(),
-	 *     }),
-	 * });
-	 * ```
-	 */
-	export const image: never;
+	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
+
+	export type CollectionKey = keyof AnyEntryMap;
+	export type CollectionEntry<C extends CollectionKey> = Flatten<AnyEntryMap[C]>;
+
+	export type ContentCollectionKey = keyof ContentEntryMap;
+	export type DataCollectionKey = keyof DataEntryMap;
 
 	// This needs to be in sync with ImageMetadata
 	export type ImageFunction = () => import('astro/zod').ZodObject<{
@@ -44,19 +32,17 @@ declare module 'astro:content' {
 				import('astro/zod').ZodLiteral<'tiff'>,
 				import('astro/zod').ZodLiteral<'webp'>,
 				import('astro/zod').ZodLiteral<'gif'>,
-				import('astro/zod').ZodLiteral<'svg'>
+				import('astro/zod').ZodLiteral<'svg'>,
+				import('astro/zod').ZodLiteral<'avif'>,
 			]
 		>;
 	}>;
 
 	type BaseSchemaWithoutEffects =
 		| import('astro/zod').AnyZodObject
-		| import('astro/zod').ZodUnion<import('astro/zod').AnyZodObject[]>
+		| import('astro/zod').ZodUnion<[BaseSchemaWithoutEffects, ...BaseSchemaWithoutEffects[]]>
 		| import('astro/zod').ZodDiscriminatedUnion<string, import('astro/zod').AnyZodObject[]>
-		| import('astro/zod').ZodIntersection<
-				import('astro/zod').AnyZodObject,
-				import('astro/zod').AnyZodObject
-		  >;
+		| import('astro/zod').ZodIntersection<BaseSchemaWithoutEffects, BaseSchemaWithoutEffects>;
 
 	type BaseSchema =
 		| BaseSchemaWithoutEffects
@@ -87,7 +73,7 @@ declare module 'astro:content' {
 
 	export function getEntryBySlug<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(
 		collection: C,
 		// Note that this has to accept a regular string too, for SSR
@@ -112,7 +98,7 @@ declare module 'astro:content' {
 
 	export function getEntry<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(entry: {
 		collection: C;
 		slug: E;
@@ -121,7 +107,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof DataEntryMap,
-		E extends keyof DataEntryMap[C] | (string & {})
+		E extends keyof DataEntryMap[C] | (string & {}),
 	>(entry: {
 		collection: C;
 		id: E;
@@ -130,7 +116,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof ContentEntryMap,
-		E extends ValidContentEntrySlug<C> | (string & {})
+		E extends ValidContentEntrySlug<C> | (string & {}),
 	>(
 		collection: C,
 		slug: E
@@ -139,7 +125,7 @@ declare module 'astro:content' {
 		: Promise<CollectionEntry<C> | undefined>;
 	export function getEntry<
 		C extends keyof DataEntryMap,
-		E extends keyof DataEntryMap[C] | (string & {})
+		E extends keyof DataEntryMap[C] | (string & {}),
 	>(
 		collection: C,
 		id: E
@@ -189,16 +175,16 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md": {
-	id: "Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md";
-  slug: "computer-science/algorithm/그래프-최단경로-알고리즘-정리";
+"Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md": {
+	id: "Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md";
+  slug: "computer-science/algorithm/그래프-최단경로-알고리즘-정리";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Algorithm/비트마스크.md": {
-	id: "Computer Science/Algorithm/비트마스크.md";
-  slug: "computer-science/algorithm/비트마스크";
+"Computer Science/Algorithm/비트마스크.md": {
+	id: "Computer Science/Algorithm/비트마스크.md";
+  slug: "computer-science/algorithm/비트마스크";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -378,9 +364,23 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 교재.md": {
-	id: "Computer Science/Operating System/OSTEP 교재.md";
-  slug: "computer-science/operating-system/ostep-교재";
+"Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md": {
+	id: "Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md";
+  slug: "computer-science/operating-system/ostep-32-concurrency-bugs";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md": {
+	id: "Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md";
+  slug: "computer-science/operating-system/ostep-33-event-based-concurrency";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 교재.md": {
+	id: "Computer Science/Operating System/OSTEP 교재.md";
+  slug: "computer-science/operating-system/ostep-교재";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -504,170 +504,170 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2023 새해 목표.md": {
-	id: "Life/2023 새해 목표.md";
-  slug: "life/2023-새해-목표";
+"Life/2023 새해 목표.md": {
+	id: "Life/2023 새해 목표.md";
+  slug: "life/2023-새해-목표";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/SW 마에스트로 14기 합격 후기.md": {
-	id: "Life/SW 마에스트로 14기 합격 후기.md";
-  slug: "life/sw-마에스트로-14기-합격-후기";
+"Life/SW 마에스트로 14기 합격 후기.md": {
+	id: "Life/SW 마에스트로 14기 합격 후기.md";
+  slug: "life/sw-마에스트로-14기-합격-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/옵시디언 플러그인으로 티스토리에 글 올리기.md": {
-	id: "Life/옵시디언 플러그인으로 티스토리에 글 올리기.md";
-  slug: "life/옵시디언-플러그인으로-티스토리에-글-올리기";
+"Life/옵시디언 플러그인으로 티스토리에 글 올리기.md": {
+	id: "Life/옵시디언 플러그인으로 티스토리에 글 올리기.md";
+  slug: "life/옵시디언-플러그인으로-티스토리에-글-올리기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/전역 후기.md": {
-	id: "Life/전역 후기.md";
-  slug: "life/전역-후기";
+"Life/전역 후기.md": {
+	id: "Life/전역 후기.md";
+  slug: "life/전역-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/티스토리 테마 복사용.md": {
-	id: "Life/티스토리 테마 복사용.md";
-  slug: "life/티스토리-테마-복사용";
+"Life/티스토리 테마 복사용.md": {
+	id: "Life/티스토리 테마 복사용.md";
+  slug: "life/티스토리-테마-복사용";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준  2261번 가장 가까운 두 점.md": {
-	id: "PS/BOJ/백준  2261번 가장 가까운 두 점.md";
-  slug: "ps/boj/백준--2261번-가장-가까운-두-점";
+"PS/BOJ/백준  2261번 가장 가까운 두 점.md": {
+	id: "PS/BOJ/백준  2261번 가장 가까운 두 점.md";
+  slug: "ps/boj/백준--2261번-가장-가까운-두-점";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 1062번 가르침.md": {
-	id: "PS/BOJ/백준 1062번 가르침.md";
-  slug: "ps/boj/백준-1062번-가르침";
+"PS/BOJ/백준 1062번 가르침.md": {
+	id: "PS/BOJ/백준 1062번 가르침.md";
+  slug: "ps/boj/백준-1062번-가르침";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 10986번 나머지 합.md": {
-	id: "PS/BOJ/백준 10986번 나머지 합.md";
-  slug: "ps/boj/백준-10986번-나머지-합";
+"PS/BOJ/백준 10986번 나머지 합.md": {
+	id: "PS/BOJ/백준 10986번 나머지 합.md";
+  slug: "ps/boj/백준-10986번-나머지-합";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 11444번 피보나치 수 6.md": {
-	id: "PS/BOJ/백준 11444번 피보나치 수 6.md";
-  slug: "ps/boj/백준-11444번-피보나치-수-6";
+"PS/BOJ/백준 11444번 피보나치 수 6.md": {
+	id: "PS/BOJ/백준 11444번 피보나치 수 6.md";
+  slug: "ps/boj/백준-11444번-피보나치-수-6";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 13489번 Vještica.md": {
-	id: "PS/BOJ/백준 13489번 Vještica.md";
-  slug: "ps/boj/백준-13489번-vještica";
+"PS/BOJ/백준 13489번 Vještica.md": {
+	id: "PS/BOJ/백준 13489번 Vještica.md";
+  slug: "ps/boj/백준-13489번-vještica";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 13711번 LCS 4.md": {
-	id: "PS/BOJ/백준 13711번 LCS 4.md";
-  slug: "ps/boj/백준-13711번-lcs-4";
+"PS/BOJ/백준 13711번 LCS 4.md": {
+	id: "PS/BOJ/백준 13711번 LCS 4.md";
+  slug: "ps/boj/백준-13711번-lcs-4";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 1588번 수열.md": {
-	id: "PS/BOJ/백준 1588번 수열.md";
-  slug: "ps/boj/백준-1588번-수열";
+"PS/BOJ/백준 1588번 수열.md": {
+	id: "PS/BOJ/백준 1588번 수열.md";
+  slug: "ps/boj/백준-1588번-수열";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 17297번 Messi Gimossi.md": {
-	id: "PS/BOJ/백준 17297번 Messi Gimossi.md";
-  slug: "ps/boj/백준-17297번-messi-gimossi";
+"PS/BOJ/백준 17297번 Messi Gimossi.md": {
+	id: "PS/BOJ/백준 17297번 Messi Gimossi.md";
+  slug: "ps/boj/백준-17297번-messi-gimossi";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 23741번 야바위 게임.md": {
-	id: "PS/BOJ/백준 23741번 야바위 게임.md";
-  slug: "ps/boj/백준-23741번-야바위-게임";
+"PS/BOJ/백준 23741번 야바위 게임.md": {
+	id: "PS/BOJ/백준 23741번 야바위 게임.md";
+  slug: "ps/boj/백준-23741번-야바위-게임";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 24229번 모두싸인 출근길.md": {
-	id: "PS/BOJ/백준 24229번 모두싸인 출근길.md";
-  slug: "ps/boj/백준-24229번-모두싸인-출근길";
+"PS/BOJ/백준 24229번 모두싸인 출근길.md": {
+	id: "PS/BOJ/백준 24229번 모두싸인 출근길.md";
+  slug: "ps/boj/백준-24229번-모두싸인-출근길";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 25949번 Jar Game.md": {
-	id: "PS/BOJ/백준 25949번 Jar Game.md";
-  slug: "ps/boj/백준-25949번-jar-game";
+"PS/BOJ/백준 25949번 Jar Game.md": {
+	id: "PS/BOJ/백준 25949번 Jar Game.md";
+  slug: "ps/boj/백준-25949번-jar-game";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 25953번 템포럴 그래프.md": {
-	id: "PS/BOJ/백준 25953번 템포럴 그래프.md";
-  slug: "ps/boj/백준-25953번-템포럴-그래프";
+"PS/BOJ/백준 25953번 템포럴 그래프.md": {
+	id: "PS/BOJ/백준 25953번 템포럴 그래프.md";
+  slug: "ps/boj/백준-25953번-템포럴-그래프";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 2629번 양팔저울.md": {
-	id: "PS/BOJ/백준 2629번 양팔저울.md";
-  slug: "ps/boj/백준-2629번-양팔저울";
+"PS/BOJ/백준 2629번 양팔저울.md": {
+	id: "PS/BOJ/백준 2629번 양팔저울.md";
+  slug: "ps/boj/백준-2629번-양팔저울";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 27066번 나무 블럭 게임.md": {
-	id: "PS/BOJ/백준 27066번 나무 블럭 게임.md";
-  slug: "ps/boj/백준-27066번-나무-블럭-게임";
+"PS/BOJ/백준 27066번 나무 블럭 게임.md": {
+	id: "PS/BOJ/백준 27066번 나무 블럭 게임.md";
+  slug: "ps/boj/백준-27066번-나무-블럭-게임";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 27068번 이미지 보정 작업.md": {
-	id: "PS/BOJ/백준 27068번 이미지 보정 작업.md";
-  slug: "ps/boj/백준-27068번-이미지-보정-작업";
+"PS/BOJ/백준 27068번 이미지 보정 작업.md": {
+	id: "PS/BOJ/백준 27068번 이미지 보정 작업.md";
+  slug: "ps/boj/백준-27068번-이미지-보정-작업";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 9370번 미확인 도착지.md": {
-	id: "PS/BOJ/백준 9370번 미확인 도착지.md";
-  slug: "ps/boj/백준-9370번-미확인-도착지";
+"PS/BOJ/백준 9370번 미확인 도착지.md": {
+	id: "PS/BOJ/백준 9370번 미확인 도착지.md";
+  slug: "ps/boj/백준-9370번-미확인-도착지";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md": {
-	id: "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md";
-  slug: "ps/boj/백준-9694번-무엇을-아느냐가-아니라-누구를-아느냐가-문제다";
+"PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md": {
+	id: "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md";
+  slug: "ps/boj/백준-9694번-무엇을-아느냐가-아니라-누구를-아느냐가-문제다";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md": {
-	id: "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md";
-  slug: "ps/programming-contest/2022-skku-프로그래밍-대회-in-소프트의-밤";
+"PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md": {
+	id: "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md";
+  slug: "ps/programming-contest/2022-skku-프로그래밍-대회-in-소프트의-밤";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md": {
-	id: "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md";
-  slug: "ps/programming-contest/2022-성균관대학교-프로그래밍-경진대회";
+"PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md": {
+	id: "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md";
+  slug: "ps/programming-contest/2022-성균관대학교-프로그래밍-경진대회";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
