@@ -64,6 +64,12 @@ const socialImageURL = new URL(
       rel="stylesheet"
     />
 
+    <!-- Get the latest one from: https://katex.org/docs/browser -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+      rel="stylesheet"
+    />
+
     <meta name="theme-color" content="" />
 
     {
@@ -85,26 +91,6 @@ const socialImageURL = new URL(
 
     <ViewTransitions />
     <script is:inline src="/toggle-theme.js"></script>
-    <!--mathjax-->
-    <script>
-      window.MathJax = {
-        tex: {
-          inlineMath: [
-            ["$", "$"],
-            ["\\(", "\\)"],
-          ],
-        },
-        svg: {
-          fontCache: "global",
-        },
-      };
-    </script>
-    <script
-      type="text/javascript"
-      id="MathJax-script"
-      async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    ></script>
   </head>
   <body>
     <slot />
