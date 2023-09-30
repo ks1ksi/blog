@@ -69,8 +69,8 @@
     prose-img:!mt-2 prose-img:border-2 
     prose-img:border-skin-line prose-hr:!border-skin-line;
   }
-  .prose pre {
-    @apply border border-skin-accent;
+  html[data-theme="dark"] .prose pre {
+    @apply border-4 border-skin-accent;
   }
   .prose a {
     @apply hover:!text-skin-accent;
