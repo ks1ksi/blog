@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f66e3128d80d4107",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md"
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md"
               }
             }
           },
@@ -158,10 +171,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1e6613f2c0dfe198",
+  "active": "f66e3128d80d4107",
   "lastOpenFiles": [
+    "public/image/OSTEP 36 IO Devices-1696879226707.jpeg",
     "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+    "Pasted image 20231010032753.png.md",
     "public/image/OSTEP 36 IO Devices-1696876731194.jpeg",
     "public/image/OSTEP 36 IO Devices-1696876073998.jpeg",
     "public/image/OSTEP 36 IO Devices-1696875011175.jpeg",
@@ -171,7 +186,6 @@
     "public/image/OSTEP 36 IO Devices-1696874618099.jpeg",
     "public/image/OSTEP 36 IO Devices-1696872204065.jpeg",
     "public/image/OSTEP 36 IO Devices-1696873741066.jpeg",
-    "public/image/OSTEP 36 IO Devices-1696873722013.jpeg",
     "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
@@ -203,8 +217,6 @@
     "node_modules/rehype-parse/node_modules/vfile/readme.md",
     "node_modules/rehype-parse/node_modules/vfile-message/readme.md",
     "node_modules/rehype-parse/node_modules/unist-util-stringify-position/readme.md",
-    "node_modules/rehype-parse/node_modules/@types/unist/README.md",
-    "node_modules/rehype-parse/node_modules/@types/hast/README.md",
-    "node_modules/@ungap/structured-clone/README.md"
+    "node_modules/rehype-parse/node_modules/@types/unist/README.md"
   ]
 }
