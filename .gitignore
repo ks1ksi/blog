@@ -147,7 +147,6 @@ dist
 .pnp.*
 .vscode/settings.json
 
-.obsidian/
 .trash/
 # build output
 dist/
