@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fad9ac1c0bae1a22",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md"
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md"
               }
             }
           },
@@ -159,9 +160,11 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
+    "public/image/OSTEP 36 IO Devices-1696860281452.jpeg",
+    "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 30 Condition Variables.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 27 Thread API.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md",
@@ -202,7 +205,6 @@
     "node_modules/rehype-parse/node_modules/unist-util-stringify-position/readme.md",
     "node_modules/rehype-parse/node_modules/@types/unist/README.md",
     "node_modules/rehype-parse/node_modules/@types/hast/README.md",
-    "node_modules/@ungap/structured-clone/README.md",
-    "node_modules/hast-util-from-html/node_modules/@types/unist/README.md"
+    "node_modules/@ungap/structured-clone/README.md"
   ]
 }
