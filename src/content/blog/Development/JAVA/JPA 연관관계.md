@@ -1,5 +1,5 @@
 ---
-title: JPA
+title: JPA 연관관계
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
@@ -9,9 +9,9 @@ tags:
   - JPA
 featured: false
 description: ""
-postSlug: JPA
+postSlug: JPA 연관관계
 ---
-# JPA
+# JPA 연관관계
 
 ## N:1 양방향
 - N쪽에 외래키 존재. **연관관계의 주인.**
