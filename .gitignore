@@ -183,3 +183,6 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 .pnp.*
+
+# Obsidian trash
+.trash

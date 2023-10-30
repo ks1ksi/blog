@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md"
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md"
               }
             }
           },
@@ -171,19 +170,22 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "bc374ac3f3f02b76",
+  "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
+    "public/image/OSTEP 40 File System Implementation-1698696548926.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698695920532.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698694041519.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698692990523.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698692641707.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698692494348.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698691362740.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698691347509.jpeg",
+    "public/image/OSTEP 40 File System Implementation-1698691003853.jpeg",
+    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
     "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698689190850.jpeg",
     "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698689123661.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698689027071.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698678929072.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698678418793.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698678115713.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698675720052.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698674794744.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698674601097.jpeg",
-    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
     "src/content/blog/Development/JAVA/Bulk Insert.md",
     "src/content/blog/Development/JAVA/JPA 연관관계.md",
     "src/utils/getUniqueTagsAndCount",
@@ -215,9 +217,6 @@
     "node_modules/shikiji/node_modules/vfile/readme.md",
     "node_modules/shikiji/node_modules/hastscript/readme.md",
     "node_modules/shikiji/node_modules/micromark-util-symbol/readme.md",
-    "node_modules/shikiji/node_modules/unist-util-visit-parents/readme.md",
-    "node_modules/p-queue/readme.md",
-    "node_modules/undici/docs/assets/lifecycle-diagram.png",
-    "node_modules/commitizen/logo/commitizen-logo-mono.svg"
+    "node_modules/shikiji/node_modules/unist-util-visit-parents/readme.md"
   ]
 }
