@@ -378,6 +378,27 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 36 IO Devices.md": {
+	id: "Computer Science/Operating System/OSTEP 36 IO Devices.md";
+  slug: "computer-science/operating-system/ostep-36-io-devices";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md": {
+	id: "Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md";
+  slug: "computer-science/operating-system/ostep-37-hard-disk-drives";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md": {
+	id: "Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md";
+  slug: "computer-science/operating-system/ostep-38-redundant-disk-arrays-raid";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
@@ -490,9 +511,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/JAVA/JPA.md": {
-	id: "Development/JAVA/JPA.md";
-  slug: "development/java/jpa";
+"Development/JAVA/JPA 연관관계.md": {
+	id: "Development/JAVA/JPA 연관관계.md";
+  slug: "development/java/jpa-연관관계";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
