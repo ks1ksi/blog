@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0970d37e8f4f3bf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md"
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md"
               }
             }
           },
@@ -170,8 +183,12 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "1e6613f2c0dfe198",
+  "active": "bc374ac3f3f02b76",
   "lastOpenFiles": [
+    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697470879.jpeg",
+    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697467840.jpeg",
+    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
     "public/image/OSTEP 40 File System Implementation-1698696548926.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698695920532.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698694041519.jpeg",
@@ -181,11 +198,7 @@
     "public/image/OSTEP 40 File System Implementation-1698691362740.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698691347509.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698691003853.jpeg",
-    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698689190850.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698689123661.jpeg",
     "src/content/blog/Development/JAVA/Bulk Insert.md",
     "src/content/blog/Development/JAVA/JPA 연관관계.md",
     "src/utils/getUniqueTagsAndCount",
