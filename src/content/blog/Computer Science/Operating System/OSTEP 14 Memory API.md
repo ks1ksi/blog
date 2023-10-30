@@ -2,9 +2,11 @@
 title: OSTEP 14 Memory API
 author: Seungil Kim
 pubDatetime: 2023-07-17T14:28:44.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 14 Memory API
 ---
 # OSTEP 14 Memory API

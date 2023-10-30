@@ -7,6 +7,7 @@ featured: true
 tags:
   - dev
   - skku
+  - life
 pubDatetime: 2023-09-24T18:04:29+09:00
 ---
 # 2023 SKKU AI 교육 해커톤 후기

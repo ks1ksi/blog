@@ -2,9 +2,14 @@
 title: 백준 13489번 Vještica
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - boj
+  - ps
+  - algorithm
+  - dp
+  - bitmask
 featured: false
-description: ''
+description: ""
 postSlug: 백준 13489번 Vještica
 ---
 # 백준 13489번 Vještica

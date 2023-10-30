@@ -2,9 +2,13 @@
 title: 백준 25949번 Jar Game
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - boj
+  - ps
+  - algorithm
+  - dp
 featured: false
-description: ''
+description: ""
 postSlug: 백준 25949번 Jar Game
 ---
 # 백준 25949번 Jar Game

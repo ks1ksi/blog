@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43679bbb4042f168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md"
+                "file": "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md"
               }
             }
           },
@@ -159,50 +171,51 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
-    "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 교재.md",
+    "src/content/blog/PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
+    "src/content/blog/PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md",
+    "src/content/blog/PS/BOJ/백준 27068번 이미지 보정 작업.md",
+    "src/content/blog/PS/BOJ/백준 27066번 나무 블럭 게임.md",
+    "src/content/blog/PS/BOJ/백준 25953번 템포럴 그래프.md",
+    "src/content/blog/PS/BOJ/백준 25949번 Jar Game.md",
+    "src/content/blog/PS/BOJ/백준 24229번 모두싸인 출근길.md",
+    "src/content/blog/PS/BOJ/백준 23741번 야바위 게임.md",
+    "src/content/blog/PS/BOJ/백준 17297번 Messi Gimossi.md",
+    "src/content/blog/PS/BOJ/백준 13711번 LCS 4.md",
+    "src/content/blog/PS/BOJ/백준 13489번 Vještica.md",
+    "src/content/blog/PS/BOJ/백준 11444번 피보나치 수 6.md",
+    "src/content/blog/PS/BOJ/백준 10986번 나머지 합.md",
+    "src/content/blog/Development/JAVA/Bulk Insert.md",
+    "src/content/blog/Development/JAVA/JPA.md",
+    "src/content/blog/PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md",
+    "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
+    "src/content/blog/PS/BOJ/백준 9370번 미확인 도착지.md",
+    "src/content/blog/PS/BOJ/백준 2629번 양팔저울.md",
+    "src/content/blog/PS/BOJ/백준 1588번 수열.md",
+    "src/content/blog/PS/BOJ/백준 1062번 가르침.md",
+    "src/content/blog/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
+    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
+    "src/content/blog/Life/티스토리 테마 복사용.md",
+    "src/content/blog/Life/전역 후기.md",
     "public/image/OSTEP 37 Hard Disk Drives-1696885123195.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696885005945.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696884834206.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696884828781.jpeg",
-    "src/content/blog/Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
     "public/image/OSTEP 37 Hard Disk Drives-1696882925270.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696882282416.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696880165840.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696880050395.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696880023221.jpeg",
     "public/image/OSTEP 37 Hard Disk Drives-1696879737655.jpeg",
-    "Pasted image 20231010032753.png.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 30 Condition Variables.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 27 Thread API.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 29 Locked Data Structures.md",
-    "().md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 31 Semaphores.md",
-    "Pasted image 20230925200247.png.md",
-    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
-    "src/content/blog/Computer Science/무제 파일.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 30 asdf.md",
-    "src/content/templates/frontmatter.md",
-    "src/content/blog/PS/BOJ/백준 25953번 템포럴 그래프.md",
-    "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
     "src/utils/convertImageLink.ts",
     "src/utils/convertImageLink.ㅅㅌ",
     "src/utils/convertWikiLink.ts",
     "src/utils/convertImageLink",
     "src/utils/convertWiki.ts",
-    "src/content/blog/Development/AWS/Beanstalk 환경변수 추출.md",
     "node_modules/rehype-parse/node_modules/unified/lib/callable-instance.js",
     "node_modules/rehype-parse/node_modules/unified/lib/index.d.ts",
     "node_modules/rehype-parse/node_modules/unified/lib/index.js",
     "node_modules/rehype-parse/node_modules/unified/lib/callable-instance.d.ts",
-    "node_modules/rehype-parse/node_modules/unified/readme.md",
-    "node_modules/rehype-parse/node_modules/unified/package.json",
-    "node_modules/rehype-parse/node_modules/vfile/readme.md",
-    "node_modules/rehype-parse/node_modules/vfile-message/readme.md",
-    "node_modules/rehype-parse/node_modules/unist-util-stringify-position/readme.md"
+    "node_modules/rehype-parse/node_modules/unified/package.json"
   ]
 }

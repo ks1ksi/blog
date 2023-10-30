@@ -2,11 +2,14 @@
 title: "OSTEP 22 Swapping: Policies"
 author: Seungil Kim
 pubDatetime: 2023-08-08T10:42:41.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
-postSlug: 'OSTEP 22 Swapping: Policies'
-aliases: ["OSTEP 22 Swapping: Policies"]
+description: ""
+postSlug: "OSTEP 22 Swapping: Policies"
+aliases:
+  - "OSTEP 22 Swapping: Policies"
 linter-yaml-title-alias: "OSTEP 22 Swapping: Policies"
 ---
 # OSTEP 22 Swapping: Policies

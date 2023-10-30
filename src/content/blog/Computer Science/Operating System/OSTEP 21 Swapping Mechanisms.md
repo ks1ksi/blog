@@ -1,11 +1,13 @@
 ---
-title: 'OSTEP 21 Swapping: Mechanisms'
+title: "OSTEP 21 Swapping: Mechanisms"
 author: Seungil Kim
 pubDatetime: 2023-08-08T10:42:41.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
-postSlug: 'OSTEP 21 Swapping: Mechanisms'
+description: ""
+postSlug: "OSTEP 21 Swapping: Mechanisms"
 ---
 # OSTEP 21 Swapping: Mechanisms
 

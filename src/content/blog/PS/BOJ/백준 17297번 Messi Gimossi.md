@@ -2,9 +2,13 @@
 title: 백준 17297번 Messi Gimossi
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - boj
+  - algorithm
+  - ps
+  - dnc
 featured: false
-description: ''
+description: ""
 postSlug: 백준 17297번 Messi Gimossi
 ---
 # 백준 17297번 Messi Gimossi

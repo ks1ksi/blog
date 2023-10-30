@@ -2,9 +2,13 @@
 title: JPA
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - dev
+  - database
+  - Java
+  - JPA
 featured: false
-description: ''
+description: ""
 postSlug: JPA
 ---
 # JPA

@@ -2,9 +2,11 @@
 title: OSTEP 05 Process API
 author: Seungil Kim
 pubDatetime: 2023-07-02T12:01:40.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 05 Process API
 ---
 # OSTEP 05 Process API

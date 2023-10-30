@@ -2,9 +2,11 @@
 title: OSTEP 15 Address Translation
 author: Seungil Kim
 pubDatetime: 2023-07-17T14:29:07.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 15 Address Translation
 ---
 # OSTEP 15 Address Translation

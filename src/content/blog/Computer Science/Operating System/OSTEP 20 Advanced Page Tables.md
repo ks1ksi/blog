@@ -2,9 +2,11 @@
 title: OSTEP 20 Advanced Page Tables
 author: Seungil Kim
 pubDatetime: 2023-08-08T10:42:41.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 20 Advanced Page Tables
 ---
 # OSTEP 20 Advanced Page Tables

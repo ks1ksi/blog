@@ -2,9 +2,11 @@
 title: OSTEP 18 Introduction to Paging
 author: Seungil Kim
 pubDatetime: 2023-08-01T10:29:17.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 18 Introduction to Paging
 ---
 # OSTEP 18 Introduction to Paging

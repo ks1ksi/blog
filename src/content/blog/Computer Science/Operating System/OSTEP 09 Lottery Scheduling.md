@@ -2,9 +2,11 @@
 title: OSTEP 09 Lottery Scheduling
 author: Seungil Kim
 pubDatetime: 2023-07-04T09:58:20.000Z
-tags: []
+tags:
+  - cs
+  - os
 featured: false
-description: ''
+description: ""
 postSlug: OSTEP 09 Lottery Scheduling
 ---
 # OSTEP 09 Lottery Scheduling
