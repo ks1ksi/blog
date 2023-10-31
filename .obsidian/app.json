@@ -2,5 +2,6 @@
   "promptDelete": false,
   "attachmentFolderPath": "public",
   "showLineNumber": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "spellcheck": false
 }
