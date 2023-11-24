@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+                "file": "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fad9ac1c0bae1a22",
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+                "file": "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+                "file": "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md"
+                "file": "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md"
               }
             }
           },
@@ -172,12 +171,14 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
+    "src/content/blog/PS/BOJ/백준 17297번 Messi Gimossi.md",
+    "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "public/image/OSTEP 40 File System Implementation-1698720772308.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698720758519.jpeg",
     "Untitled.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697470879.jpeg",
     "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697467840.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698696548926.jpeg",
@@ -186,7 +187,6 @@
     "public/image/OSTEP 40 File System Implementation-1698692990523.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698692641707.jpeg",
     "public/image/OSTEP 40 File System Implementation-1698692494348.jpeg",
-    "public/image/OSTEP 40 File System Implementation-1698691362740.jpeg",
     "src/content/blog/Development/JAVA/Bulk Insert.md",
     "src/content/blog/Development/JAVA/JPA 연관관계.md",
     "src/utils/getUniqueTagsAndCount",
@@ -216,7 +216,6 @@
     "node_modules/path-browserify/CHANGELOG.md",
     "node_modules/tsconfck/README.md",
     "node_modules/shikiji/node_modules/vfile/readme.md",
-    "node_modules/shikiji/node_modules/hastscript/readme.md",
-    "node_modules/shikiji/node_modules/micromark-util-symbol/readme.md"
+    "node_modules/shikiji/node_modules/hastscript/readme.md"
   ]
 }
