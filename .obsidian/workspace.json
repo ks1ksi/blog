@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md"
+                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md"
               }
             }
           },
@@ -172,18 +172,27 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
-    "public/image/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703088469581.jpeg",
-    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
-    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+    "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089820134.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089788980.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089720080.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089083825.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088971166.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088923407.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088786988.jpeg",
+    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088654976.jpeg",
+    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 06 Direct Execution.md",
+    "public/image/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703088469581.jpeg",
     "public/image/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703087821031.jpeg",
-    "public/image/2024 카카오 채용 연계형 겨울 인턴십 지원 후기-1703087461848.jpeg",
-    "public/image/2024 카카오 채용 연계형 겨울 인턴십 지원 후기-1703083283939.jpeg",
-    "public/image/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703083267256.jpeg",
     "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
     "src/content/blog/Life/옵시디언 플러그인으로 티스토리에 글 올리기.md",
     "README.md",
-    "public/image/2024 카카오 채용 연계형 겨울 인턴십 지원 후기-1703080698859.jpeg",
     "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
     "src/content/blog/PS/Coding Test/Untitled.md",
     "src/content/blog/PS/Coding Test",
@@ -191,13 +200,8 @@
     "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "src/content/blog/PS/BOJ/백준 17297번 Messi Gimossi.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
-    "public/image/OSTEP 40 File System Implementation-1698720772308.jpeg",
-    "public/image/OSTEP 40 File System Implementation-1698720758519.jpeg",
     "Untitled.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697470879.jpeg",
-    "public/image/OSTEP 38 Redundant Disk Arrays (RAID)-1698697467840.jpeg",
-    "public/image/OSTEP 40 File System Implementation-1698696548926.jpeg",
     "src/content/blog/Development/JAVA/Bulk Insert.md",
     "src/content/blog/Development/JAVA/JPA 연관관계.md",
     "src/utils/getUniqueTagsAndCount",
@@ -212,11 +216,6 @@
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.cjs",
     "node_modules/shikiji/node_modules/@types/hast/README.md",
     "node_modules/shikiji/node_modules/mdast-util-to-hast/readme.md",
-    "node_modules/shikiji/node_modules/hast-util-to-html/readme.md",
-    "node_modules/shikiji/node_modules/hast-util-whitespace/readme.md",
-    "node_modules/shikiji/node_modules/html-void-elements/readme.md",
-    "node_modules/shikiji/node_modules/hast-util-raw/readme.md",
-    "node_modules/shikiji/node_modules/unist-util-position/readme.md",
-    "node_modules/shikiji/node_modules/hast-util-to-parse5/readme.md"
+    "node_modules/shikiji/node_modules/hast-util-to-html/readme.md"
   ]
 }

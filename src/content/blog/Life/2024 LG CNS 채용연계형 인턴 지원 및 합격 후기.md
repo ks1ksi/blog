@@ -9,6 +9,8 @@ tags:
   - lgcns
   - ps
   - codingtest
+  - interview
+  - intern
 pubDatetime: 2023-12-20T22:59:15+09:00
 ---
 # 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
