@@ -11,7 +11,7 @@ import { convertWikiLink } from "./src/utils/convertWikiLink";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://ks1ksi.github.io/", // replace this with your deployed domain
+  site: "https://ks1ksi.io/", // replace this with your deployed domain
   integrations: [
     tailwind({
       config: {
