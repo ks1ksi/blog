@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0970d37e8f4f3bf1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
+                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
+                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md"
+                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md"
               }
             }
           },
@@ -172,9 +160,10 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
+    "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
     "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
-    "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
     "public/image/Intel Korea SW engineer Intern 지원 후기-1703089820134.jpeg",
     "public/image/Intel Korea SW engineer Intern 지원 후기-1703089788980.jpeg",
     "public/image/Intel Korea SW engineer Intern 지원 후기-1703089720080.jpeg",
@@ -197,7 +186,6 @@
     "src/content/blog/PS/Coding Test/Untitled.md",
     "src/content/blog/PS/Coding Test",
     "src/content/blog/PS/Untitled.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "src/content/blog/PS/BOJ/백준 17297번 Messi Gimossi.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
     "Untitled.md",
