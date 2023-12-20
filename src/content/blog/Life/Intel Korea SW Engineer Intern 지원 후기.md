@@ -62,7 +62,6 @@ linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
 지금보니까 머신러닝 m 대문자로 써야하는데 소문자로 썼네 아 ㅋㅋ
 
 제출해서 내면 며칠 뒤 리크루터한테 메일이 온다.
-![[Intel Korea SW engineer Intern 지원 후기-1703088923407.jpeg]]
 
 졸업 안할거고 학생 신분 유지할거고 1년동안 인턴 잘 할 수 있다고 써서 답장을 보내주도록 하자. 종강하자마자 바로 일할 수 있다고 써서 보냈다.
 
@@ -70,7 +69,7 @@ linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
 
 ## Task
 
-이메일까지 잘 보내면 이제 과제가 주어진다. 
+이메일까지 잘 보내면 이제 과제가 주어진다. 인터넷에 떠도는 후기 두개를 봤는데 거기서 나온 각각의 과제 두 개가 전부 나에게 주어졌다. 하나인줄 알았는데.. 
 
 ![[Intel Korea SW engineer Intern 지원 후기-1703089083825.jpeg]]
 
@@ -117,7 +116,6 @@ linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
 
 내가 최후의 2인이다~~
 
-![[Intel Korea SW engineer Intern 지원 후기-1703089788980.jpeg]]
 ![[Intel Korea SW engineer Intern 지원 후기-1703089820134.jpeg]]
 
 그렇게.. 아쉽게 떨어지게 되었다고 한다..
