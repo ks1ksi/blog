@@ -55,7 +55,7 @@ linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
 
 ## Resume
 
-![[Intel Korea SW engineer Intern 지원 후기-1703088786988.jpeg]]
+![[Intel Korea SW Engineer Intern 지원 후기-1703150984010.jpeg]]
 
 대충 이런식으로 써서 제출했다. 이력서같은거 써본적도 없는데 영문 이력서를 먼저 쓰게 되었다. 같은 말이라도 영어로 쓰면 있어보이는 효과가 있다. 
 
