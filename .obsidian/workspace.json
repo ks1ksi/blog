@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "789f165958efb108",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -135,7 +146,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -158,7 +171,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1e6613f2c0dfe198",
+  "active": "789f165958efb108",
   "lastOpenFiles": [
     "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
     "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
