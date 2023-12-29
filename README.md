@@ -2,4 +2,4 @@
 
 개인 블로그입니다. 정적 빌드된 페이지가 cloudflare를 통해 배포됩니다.
 
-[ks1ksi.io](ks1ksi.io)
+[ks1ksi.io](https://ks1ksi.io/)
