@@ -399,6 +399,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 39 Files and Directories.md": {
+	id: "Computer Science/Operating System/OSTEP 39 Files and Directories.md";
+  slug: "computer-science/operating-system/ostep-39-files-and-directories";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Computer Science/Operating System/OSTEP 40 File System Implementation.md": {
+	id: "Computer Science/Operating System/OSTEP 40 File System Implementation.md";
+  slug: "computer-science/operating-system/ostep-40-file-system-implementation";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 교재.md": {
 	id: "Computer Science/Operating System/OSTEP 교재.md";
   slug: "computer-science/operating-system/ostep-교재";
@@ -532,6 +546,27 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md": {
+	id: "Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md";
+  slug: "life/2024-lg-cns-채용연계형-인턴-지원-및-합격-후기";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md": {
+	id: "Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md";
+  slug: "life/2024-카카오-채용-연계형-겨울-인턴십-지원-후기";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"Life/Intel Korea SW Engineer Intern 지원 후기.md": {
+	id: "Life/Intel Korea SW Engineer Intern 지원 후기.md";
+  slug: "life/intel-korea-sw-engineer-intern-지원-후기";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Life/SW 마에스트로 14기 합격 후기.md": {
 	id: "Life/SW 마에스트로 14기 합격 후기.md";
   slug: "life/sw-마에스트로-14기-합격-후기";
@@ -612,6 +647,13 @@ declare module 'astro:content' {
 "PS/BOJ/백준 17297번 Messi Gimossi.md": {
 	id: "PS/BOJ/백준 17297번 Messi Gimossi.md";
   slug: "ps/boj/백준-17297번-messi-gimossi";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"PS/BOJ/백준 17835번 면접보는 승범이네.md": {
+	id: "PS/BOJ/백준 17835번 면접보는 승범이네.md";
+  slug: "ps/boj/백준-17835번-면접보는-승범이네";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
