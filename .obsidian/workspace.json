@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+                "file": "src/content/blog/Life/2023 회고.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+                "file": "src/content/blog/Life/2023 회고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+                "file": "src/content/blog/Life/2023 회고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md"
+                "file": "src/content/blog/Life/2023 회고.md"
               }
             }
           },
@@ -162,28 +162,31 @@
   },
   "active": "1e6613f2c0dfe198",
   "lastOpenFiles": [
-    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
-    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
+    "public/image/2023 회고-1704201454824.jpeg",
+    "public/image/2023 회고-1704200971578.jpeg",
+    "public/image/2023 회고-1704200496764.jpeg",
+    "public/image/2023 회고-1704200388150.jpeg",
+    "public/image/2023 회고-1704200160964.jpeg",
     "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
-    "public/image/Intel Korea SW Engineer Intern 지원 후기-1703150984010.jpeg",
-    "src/content/blog/Life/티스토리 테마 복사용.md",
+    "src/content/blog/Life/2023 회고.md",
+    "public/image/2023 회고-1704199732323.jpeg",
+    "public/image/2023 회고-1704199728226.jpeg",
+    "public/image/2023 회고-1704198858271.jpeg",
+    "public/image/2023 회고-1704198140666.jpeg",
+    "public/image/2023 회고-1704198014571.jpeg",
+    "public/image/2023 회고-1704197650912.jpeg",
+    "src/content/blog/Life/2023 새해 목표.md",
+    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
     "src/content/blog/Life/옵시디언 플러그인으로 티스토리에 글 올리기.md",
+    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
+    "src/content/blog/Life/티스토리 테마 복사용.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089820134.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089788980.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089720080.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703089083825.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088971166.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088923407.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088786988.jpeg",
-    "public/image/Intel Korea SW engineer Intern 지원 후기-1703088654976.jpeg",
     "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 06 Direct Execution.md",
-    "public/image/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703088469581.jpeg",
-    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
     "README.md",
     "src/content/blog/PS/BOJ/백준 17835번 면접보는 승범이네.md",
     "src/content/blog/PS/Coding Test/Untitled.md",
@@ -204,8 +207,6 @@
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/package.json",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.js",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.d.ts",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.cjs",
-    "node_modules/shikiji/node_modules/@types/hast/README.md",
-    "node_modules/shikiji/node_modules/mdast-util-to-hast/readme.md"
+    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.cjs"
   ]
 }

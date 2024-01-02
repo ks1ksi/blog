@@ -546,6 +546,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"Life/2023 회고.md": {
+	id: "Life/2023 회고.md";
+  slug: "life/2023-회고";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md": {
 	id: "Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md";
   slug: "life/2024-lg-cns-채용연계형-인턴-지원-및-합격-후기";
