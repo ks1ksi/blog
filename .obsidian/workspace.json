@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "1202d527dc9590b9",
+        "id": "0d48a610336ef4e2",
         "type": "tabs",
         "children": [
           {
-            "id": "1e6613f2c0dfe198",
+            "id": "adb0d67d15a8e1f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/blog/Life/2023 회고.md"
-              }
+              "state": {}
             }
           },
           {
@@ -160,21 +152,21 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "1e6613f2c0dfe198",
+  "active": "adb0d67d15a8e1f8",
   "lastOpenFiles": [
+    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
+    "src/content/blog/Life/2023 회고.md",
     "public/image/2023 회고-1704201454824.jpeg",
     "public/image/2023 회고-1704200971578.jpeg",
     "public/image/2023 회고-1704200496764.jpeg",
     "public/image/2023 회고-1704200388150.jpeg",
     "public/image/2023 회고-1704200160964.jpeg",
     "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
-    "src/content/blog/Life/2023 회고.md",
     "public/image/2023 회고-1704199732323.jpeg",
     "public/image/2023 회고-1704199728226.jpeg",
     "public/image/2023 회고-1704198858271.jpeg",
     "public/image/2023 회고-1704198140666.jpeg",
     "public/image/2023 회고-1704198014571.jpeg",
-    "public/image/2023 회고-1704197650912.jpeg",
     "src/content/blog/Life/2023 새해 목표.md",
     "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
     "src/content/blog/Life/옵시디언 플러그인으로 티스토리에 글 올리기.md",
@@ -182,7 +174,6 @@
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
     "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
     "src/content/blog/Life/티스토리 테마 복사용.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md",
