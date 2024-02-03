@@ -11,8 +11,12 @@
             "id": "adb0d67d15a8e1f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md"
+              }
             }
           },
           {
@@ -154,6 +162,8 @@
   },
   "active": "adb0d67d15a8e1f8",
   "lastOpenFiles": [
+    "src/content/blog/PS/BOJ/백준  2261번 가장 가까운 두 점.md",
+    "src/pages/about.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 39 Files and Directories.md",
     "src/content/blog/Life/2023 회고.md",
     "public/image/2023 회고-1704201454824.jpeg",
@@ -194,7 +204,6 @@
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/utils.d.ts",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/types.d.ts",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/sync.d.ts",
-    "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/README.md",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/package.json",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.js",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/dist/shared/types.d.ts",

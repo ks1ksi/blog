@@ -7,7 +7,7 @@ title: "Seungil Kim"
 
 ### LG CNS Software Engineer Intern
 ***<div style="text-align: right"> Jan. 2024 - Feb. 2024 </div>***
-- Internship at LG CNS, a IT service company of LG Group.
+- Internship at LG CNS, IT service company of LG Group.
 - Worked as a software engineer intern @ AWS Launch Center.
 
 ### Software Maestro 14th Trainee 
