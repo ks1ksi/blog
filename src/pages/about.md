@@ -8,12 +8,13 @@ title: "Seungil Kim"
 ### LG CNS Software Engineer Intern
 ***<div style="text-align: right"> Jan. 2024 - Feb. 2024 </div>***
 - Internship at LG CNS, a IT service company of LG Group.
-- Worked as a software engineer intern in the Cloud AM team.
+- Worked as a software engineer intern @ AWS Launch Center.
 
 ### Software Maestro 14th Trainee 
 ***<div style="text-align: right"> Mar. 2023 - Nov. 2023 </div>***
 
-- Appointed as the team leader for the "Remak" project, demonstrating leadership skills and a deep understanding of software development processes.
+- Selected as a trainee of Software Maestro, a software development training program by the Ministry of Science and ICT.
+- Appointed as a team leader of a project "Remak" and developed backend server.
 
 ### Computer Systems Operator, Republic of Korea Air Force At Osan Air Base 
 ***<div style="text-align: right"> Feb. 2021 - Nov. 2022 </div>***
