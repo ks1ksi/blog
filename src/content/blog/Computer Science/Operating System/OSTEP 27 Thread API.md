@@ -1,13 +1,13 @@
 ---
-title: OSTEP 27 Thread API
 author: Seungil Kim
 description: POSIX Threads API에 대해 알아보자
-postSlug: OSTEP 27 Thread API
 featured: false
+postSlug: OSTEP 27 Thread API
+pubDatetime: 2023-09-11T03:19:20+09:00
 tags:
   - cs
   - os
-pubDatetime: 2023-09-11T03:19:20+09:00
+title: OSTEP 27 Thread API
 ---
 # OSTEP 27 Thread API
 

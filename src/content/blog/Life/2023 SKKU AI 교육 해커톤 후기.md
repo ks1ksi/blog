@@ -1,14 +1,14 @@
 ---
-title: 2023 SKKU AI 교육 해커톤 후기
 author: Seungil Kim
 description: 
-postSlug: 2023 SKKU AI 교육 해커톤 후기
 featured: true
+postSlug: 2023 SKKU AI 교육 해커톤 후기
+pubDatetime: 2023-09-24T18:04:29+09:00
 tags:
   - dev
   - skku
   - life
-pubDatetime: 2023-09-24T18:04:29+09:00
+title: 2023 SKKU AI 교육 해커톤 후기
 ---
 # 2023 SKKU AI 교육 해커톤 후기
 

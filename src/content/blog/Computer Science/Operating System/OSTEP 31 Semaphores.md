@@ -1,13 +1,13 @@
 ---
-title: OSTEP 31 Semaphores
 author: Seungil Kim
 description: Edsger Dijkstra의 세마포어 동기화 기법에 대해 알아보자
-postSlug: OSTEP 31 Semaphores
 featured: false
+postSlug: OSTEP 31 Semaphores
+pubDatetime: 2023-09-18T01:17:56+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-09-18T01:17:56+09:00
+title: OSTEP 31 Semaphores
 ---
 # OSTEP 31 Semaphores
 

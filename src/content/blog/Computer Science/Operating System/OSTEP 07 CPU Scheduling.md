@@ -1,13 +1,13 @@
 ---
-title: OSTEP 07 CPU Scheduling
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 07 CPU Scheduling
 pubDatetime: 2023-07-03T04:13:45.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 07 CPU Scheduling
+title: OSTEP 07 CPU Scheduling
 ---
 # OSTEP 07 CPU Scheduling
 

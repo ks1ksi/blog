@@ -1,13 +1,13 @@
 ---
-title: OSTEP 08 Multi-level Feedback Queue, MLFQ
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 08 Multi-level Feedback Queue, MLFQ
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 08 Multi-level Feedback Queue, MLFQ
+title: OSTEP 08 Multi-level Feedback Queue, MLFQ
 ---
 # OSTEP 08 Multi-level Feedback Queue, MLFQ
 

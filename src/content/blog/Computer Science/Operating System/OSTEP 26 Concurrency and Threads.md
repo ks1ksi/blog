@@ -1,13 +1,13 @@
 ---
-title: OSTEP 26 Concurrency and Threads
 author: Seungil Kim
 description: 병행성에 대해 알아보자
-postSlug: OSTEP 26 Concurrency and Threads
 featured: false
+postSlug: OSTEP 26 Concurrency and Threads
+pubDatetime: 2023-09-11T01:09:18+09:00
 tags:
   - cs
   - os
-pubDatetime: 2023-09-11T01:09:18+09:00
+title: OSTEP 26 Concurrency and Threads
 ---
 # OSTEP 26 Concurrency and Threads
 

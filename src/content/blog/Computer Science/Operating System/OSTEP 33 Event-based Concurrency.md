@@ -1,13 +1,13 @@
 ---
-title: OSTEP 33 Event-based Concurrency
 author: Seungil Kim
 description: GUI 프로그램이나 웹 서버에서 쓰이는 이벤트 기반 병행성에 대해 알아보자
-postSlug: OSTEP 33 Event-based Concurrency
 featured: false
+postSlug: OSTEP 33 Event-based Concurrency
+pubDatetime: 2023-09-25T16:40:56+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-09-25T16:40:56+09:00
+title: OSTEP 33 Event-based Concurrency
 ---
 # OSTEP 33 Event-based Concurrency
 

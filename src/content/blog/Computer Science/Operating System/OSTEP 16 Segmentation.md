@@ -1,13 +1,13 @@
 ---
-title: OSTEP 16 Segmentation
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 16 Segmentation
 pubDatetime: 2023-07-17T14:29:55.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 16 Segmentation
+title: OSTEP 16 Segmentation
 ---
 # OSTEP 16 Segmentation
 

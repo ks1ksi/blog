@@ -1,13 +1,13 @@
 ---
-title: OSTEP 17 Free Space Management
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 17 Free Space Management
 pubDatetime: 2023-08-01T10:29:17.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 17 Free Space Management
+title: OSTEP 17 Free Space Management
 ---
 # OSTEP 17 Free Space Management
 

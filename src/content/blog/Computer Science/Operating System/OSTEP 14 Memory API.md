@@ -1,13 +1,13 @@
 ---
-title: OSTEP 14 Memory API
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 14 Memory API
 pubDatetime: 2023-07-17T14:28:44.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 14 Memory API
+title: OSTEP 14 Memory API
 ---
 # OSTEP 14 Memory API
 

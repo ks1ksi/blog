@@ -1,13 +1,13 @@
 ---
-title: OSTEP 37 Hard Disk Drives
 author: Seungil Kim
 description: 디스크의 상세한 동작을 이해해보자
-postSlug: OSTEP 37 Hard Disk Drives
 featured: false
+postSlug: OSTEP 37 Hard Disk Drives
+pubDatetime: 2023-10-10T03:59:01+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-10-10T03:59:01+09:00
+title: OSTEP 37 Hard Disk Drives
 ---
 # OSTEP 37 Hard Disk Drives
 

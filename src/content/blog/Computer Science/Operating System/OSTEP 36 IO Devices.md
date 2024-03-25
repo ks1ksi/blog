@@ -1,13 +1,13 @@
 ---
-title: OSTEP 36 IO Devices
 author: Seungil Kim
 description: 영속성에 대해 알아보기 전에, 입출력 장치부터 알아야 하지 않을까?
-postSlug: OSTEP 36 IO Devices
 featured: false
+postSlug: OSTEP 36 IO Devices
+pubDatetime: 2023-10-09T22:08:47+09:00
 tags:
   - cs
   - os
-pubDatetime: 2023-10-09T22:08:47+09:00
+title: OSTEP 36 IO Devices
 ---
 
 # OSTEP 36 IO Devices

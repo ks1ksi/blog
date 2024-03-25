@@ -1,13 +1,13 @@
 ---
-title: OSTEP 13 Address Spaces
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 13 Address Spaces
 pubDatetime: 2023-07-04T09:58:20.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 13 Address Spaces
+title: OSTEP 13 Address Spaces
 ---
 # OSTEP 13 Address Spaces
 

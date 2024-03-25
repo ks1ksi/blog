@@ -1,13 +1,13 @@
 ---
-title: SELECT
 author: Seungil Kim
+description: ''
+featured: false
+postSlug: SELECT
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - cs
   - database
-featured: false
-description: ''
-postSlug: SELECT
+title: SELECT
 ---
 # SELECT
 

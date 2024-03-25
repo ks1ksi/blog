@@ -399,13 +399,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 39 Files and Directories.md": {
-	id: "Computer Science/Operating System/OSTEP 39 Files and Directories.md";
-  slug: "computer-science/operating-system/ostep-39-files-and-directories";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "Computer Science/Operating System/OSTEP 40 File System Implementation.md": {
 	id: "Computer Science/Operating System/OSTEP 40 File System Implementation.md";
   slug: "computer-science/operating-system/ostep-40-file-system-implementation";

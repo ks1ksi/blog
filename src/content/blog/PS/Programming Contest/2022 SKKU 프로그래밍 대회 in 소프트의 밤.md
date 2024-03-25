@@ -1,13 +1,13 @@
 ---
-title: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 author: Seungil Kim
+description: ""
+featured: true
+postSlug: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - ps
   - skku
-featured: true
-description: ""
-postSlug: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
+title: 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 ---
 # 2022 SKKU 프로그래밍 대회 in 소프트의 밤
 

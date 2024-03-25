@@ -1,13 +1,13 @@
 ---
-title: OSTEP 30 Condition Variables
 author: Seungil Kim
 description: 특정 조건이 참이 될 때까지 기다리기 위해 컨디션 변수(conditional variable)를 활용해보자
-postSlug: OSTEP 30 Condition Variables
 featured: false
+postSlug: OSTEP 30 Condition Variables
+pubDatetime: 2023-09-18T01:17:29+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-09-18T01:17:29+09:00
+title: OSTEP 30 Condition Variables
 ---
 # OSTEP 30 Condition Variables
 

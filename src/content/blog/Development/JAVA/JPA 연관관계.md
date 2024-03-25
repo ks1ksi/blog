@@ -1,15 +1,15 @@
 ---
-title: JPA 연관관계
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: JPA 연관관계
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - dev
   - database
   - Java
   - JPA
-featured: false
-description: ""
-postSlug: JPA 연관관계
+title: JPA 연관관계
 ---
 # JPA 연관관계
 

@@ -1,11 +1,11 @@
 ---
-title: OSTEP 교재
 author: Seungil Kim
+description: ''
+featured: false
+postSlug: OSTEP 교재
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags: []
-featured: false
-description: ''
-postSlug: OSTEP 교재
+title: OSTEP 교재
 ---
 # OSTEP 교재
 

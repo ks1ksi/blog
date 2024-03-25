@@ -1,13 +1,13 @@
 ---
-title: OSTEP 32 Concurrency Bugs
 author: Seungil Kim
 description: 일반적인 병행성 관련 오류에 대해 알아보자
-postSlug: OSTEP 32 Concurrency Bugs
 featured: false
+postSlug: OSTEP 32 Concurrency Bugs
+pubDatetime: 2023-09-25T16:40:33+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-09-25T16:40:33+09:00
+title: OSTEP 32 Concurrency Bugs
 ---
 # OSTEP 32 Concurrency Bugs
 

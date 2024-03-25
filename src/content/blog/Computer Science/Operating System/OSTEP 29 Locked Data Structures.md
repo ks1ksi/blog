@@ -1,13 +1,13 @@
 ---
-title: OSTEP 29 Locked Data Structures
 author: Seungil Kim
 description: 락 기반의 병행 자료 구조에 대해 알아보자
-postSlug: OSTEP 29 Locked Data Structures
 featured: false
+postSlug: OSTEP 29 Locked Data Structures
+pubDatetime: 2023-09-11T11:30:05+09:00
 tags:
   - cs
   - os
-pubDatetime: 2023-09-11T11:30:05+09:00
+title: OSTEP 29 Locked Data Structures
 ---
 # OSTEP 29 Locked Data Structures
 

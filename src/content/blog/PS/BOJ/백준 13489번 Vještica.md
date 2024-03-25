@@ -1,6 +1,8 @@
 ---
-title: 백준 13489번 Vještica
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: 백준 13489번 Vještica
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - boj
@@ -8,9 +10,7 @@ tags:
   - algorithm
   - dp
   - bitmask
-featured: false
-description: ""
-postSlug: 백준 13489번 Vještica
+title: 백준 13489번 Vještica
 ---
 # 백준 13489번 Vještica
 

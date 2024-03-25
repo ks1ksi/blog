@@ -1,13 +1,13 @@
 ---
-title: OSTEP 19 Translation Lookaside Buffer
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 19 Translation Lookaside Buffer
 pubDatetime: 2023-08-01T10:29:17.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 19 Translation Lookaside Buffer
+title: OSTEP 19 Translation Lookaside Buffer
 ---
 # OSTEP 19 Translation Lookaside Buffer
 

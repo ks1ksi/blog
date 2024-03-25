@@ -1,13 +1,13 @@
 ---
-title: OSTEP 04 Process
 author: Seungil Kim
+description: ''
+featured: false
+postSlug: OSTEP 04 Process
 pubDatetime: 2023-07-03T04:13:45.000Z
 tags:
   - cs
   - os
-featured: false
-description: ''
-postSlug: OSTEP 04 Process
+title: OSTEP 04 Process
 ---
 # OSTEP 04 Process
 

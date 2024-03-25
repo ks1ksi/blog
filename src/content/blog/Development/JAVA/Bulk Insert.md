@@ -1,14 +1,14 @@
 ---
-title: Bulk Insert
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: Bulk Insert
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags:
   - dev
   - database
   - Java
-featured: false
-description: ""
-postSlug: Bulk Insert
+title: Bulk Insert
 ---
 # Bulk Insert
 

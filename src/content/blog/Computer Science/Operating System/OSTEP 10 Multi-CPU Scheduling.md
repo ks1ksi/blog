@@ -1,13 +1,13 @@
 ---
-title: OSTEP 10 Multi-CPU Scheduling
 author: Seungil Kim
+description: ""
+featured: false
+postSlug: OSTEP 10 Multi-CPU Scheduling
 pubDatetime: 2023-07-04T09:58:20.000Z
 tags:
   - cs
   - os
-featured: false
-description: ""
-postSlug: OSTEP 10 Multi-CPU Scheduling
+title: OSTEP 10 Multi-CPU Scheduling
 ---
 # OSTEP 10 Multi-CPU Scheduling
 

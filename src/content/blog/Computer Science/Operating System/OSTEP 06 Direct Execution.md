@@ -1,11 +1,11 @@
 ---
-title: OSTEP 06 Direct Execution
 author: Seungil Kim
+description: ''
+featured: false
+postSlug: OSTEP 06 Direct Execution
 pubDatetime: 2023-07-02T12:01:40.000Z
 tags: []
-featured: false
-description: ''
-postSlug: OSTEP 06 Direct Execution
+title: OSTEP 06 Direct Execution
 ---
 # OSTEP 06 Direct Execution
 

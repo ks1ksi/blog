@@ -1,16 +1,16 @@
 ---
-title: Intel Korea SW engineer Intern 지원 후기
+aliases:
+  - Intel Korea SW engineer Intern 지원 후기
 author: Seungil Kim
 description: ""
-postSlug: Intel Korea SW engineer Intern 지원 후기
 featured: false
+postSlug: Intel Korea SW engineer Intern 지원 후기
+pubDatetime: 2023-12-21T01:08:35+09:00
 tags:
   - intel
   - interview
   - intern
-pubDatetime: 2023-12-21T01:08:35+09:00
-aliases: [Intel Korea SW engineer Intern 지원 후기]
-linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
+title: Intel Korea SW engineer Intern 지원 후기
 ---
 # Intel Korea SW engineer Intern 지원 후기
 

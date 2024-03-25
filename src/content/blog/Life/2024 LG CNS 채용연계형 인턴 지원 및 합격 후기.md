@@ -1,9 +1,9 @@
 ---
-title: 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
 author: Seungil Kim
 description: ""
-postSlug: 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
 featured: false
+postSlug: 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
+pubDatetime: 2023-12-20T22:59:15+09:00
 tags:
   - job
   - lgcns
@@ -11,7 +11,7 @@ tags:
   - codingtest
   - interview
   - intern
-pubDatetime: 2023-12-20T22:59:15+09:00
+title: 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
 ---
 # 2024 LG CNS 채용연계형 인턴 지원 및 합격 후기
 
@@ -78,3 +78,5 @@ SW 마에스트로에서 어떤 역할 했는지, 개발한 서비스에 그 기
 아키텍트, 개발 중 뭐가 더 하고싶냐고 물어보여서 백엔드 개발 하고싶다고 답변했다. 제발 백엔드 개발 하게됐으면 좋겠다.
 
 ![[2024 LG CNS 채용연계형 인턴 지원 및 합격 후기-1703088469581.jpeg]]
+
+[[2024 LG CNS 채용연계형 인턴 최종 합격 후기]]

@@ -1,13 +1,13 @@
 ---
-title: OSTEP 40 File System Implementation
 author: Seungil Kim
 description: ""
-postSlug: OSTEP 40 File System Implementation
 featured: false
+postSlug: OSTEP 40 File System Implementation
+pubDatetime: 2023-10-31T03:11:46+09:00
 tags:
   - os
   - cs
-pubDatetime: 2023-10-31T03:11:46+09:00
+title: OSTEP 40 File System Implementation
 ---
 # OSTEP 40 File System Implementation
 
