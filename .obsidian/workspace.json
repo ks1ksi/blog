@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md",
+                "file": "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md",
+                "file": "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md",
+                "file": "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md"
+                "file": "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md"
               }
             }
           },
@@ -162,18 +162,18 @@
   },
   "active": "c030f7290c149413",
   "lastOpenFiles": [
-    "().md",
-    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md",
-    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
-    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
     "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
+    "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
+    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 합격 후기.md",
+    "src/content/blog/Life/2023 회고.md",
+    "src/content/blog/Life/2023 새해 목표.md",
+    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
+    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+    "().md",
     "src/pages/about.md",
     "public/image/2024 LG CNS 채용연계형 인턴 최종 합격 후기-1711372606614.jpeg",
     "src/content/blog/Life/전역 후기.md",
-    "src/content/blog/Life/2023 새해 목표.md",
-    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
-    "src/content/blog/Life/2023 회고.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 04 Process.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
