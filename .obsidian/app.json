@@ -3,5 +3,6 @@
   "attachmentFolderPath": "public",
   "showLineNumber": true,
   "propertiesInDocument": "visible",
-  "spellcheck": false
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
 }

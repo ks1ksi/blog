@@ -2,17 +2,17 @@
 author: Seungil Kim
 description: ""
 featured: false
-postSlug: 2024 LG CNS 채용연계형 인턴 최종 합격 후기
+postSlug: 2024 LG CNS 채용연계형 인턴 최종 전환 후기
 pubDatetime: 2024-03-25T21:53:18+09:00
 tags:
   - job
   - lgcns
   - intern
   - interview
-title: 2024 LG CNS 채용연계형 인턴 최종 합격 후기
+title: 2024 LG CNS 채용연계형 인턴 최종 전환 후기
 ---
 
-# 2024 LG CNS 채용연계형 인턴 최종 합격 후기
+# 2024 LG CNS 채용연계형 인턴 최종 전환 후기
 
 ![[2024 LG CNS 채용연계형 인턴 최종 합격 후기-1711372606614.jpeg]]
 
