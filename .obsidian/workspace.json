@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "1454d7dab3c908f9",
+        "id": "268627b7acddff15",
         "type": "tabs",
         "children": [
           {
-            "id": "c030f7290c149413",
+            "id": "9bfdb5925bec20ba",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6012bd5d5759481",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
+                "file": "src/content/blog/Computer Science/Database/Real MySQL 8.0 5장 트랜잭션과 잠금.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d55ca89fc6cab685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/Life/Intel Korea SW engineer Intern 지원 후기.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
+                "file": "src/content/blog/Life/Intel Korea SW engineer Intern 지원 후기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md",
+                "file": "src/content/blog/Life/Intel Korea SW engineer Intern 지원 후기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/Life/2023 회고.md"
+                "file": "src/content/blog/Life/Intel Korea SW engineer Intern 지원 후기.md"
               }
             }
           },
@@ -160,44 +181,43 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "c030f7290c149413",
+  "active": "d55ca89fc6cab685",
   "lastOpenFiles": [
-    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 전환 후기.md",
+    "src/content/blog/Computer Science/Database/Real MySQL 8.0 8장 인덱스.md",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712428297149.jpeg",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712428256696.jpeg",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712428048683.jpeg",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712427633811.jpeg",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712427542357.jpeg",
+    "src/content/blog/Computer Science/Database/Real MySQL 8.0 5장 트랜잭션과 잠금.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712426289895.jpeg",
+    "public/image/Real MySQL 8.0 8장 인덱스-1712426195346.jpeg",
+    "src/content/blog/Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
+    "src/content/blog/Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md",
+    "src/content/blog/Computer Science/Database/SELECT.md",
+    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
+    "src/content/blog/Life/2023 새해 목표.md",
+    "src/content/blog/Life/2023 회고.md",
     "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+    "src/content/blog/Life/2024 LG CNS 채용연계형 인턴 최종 전환 후기.md",
     "src/content/blog/Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
     "src/content/blog/Life/SW 마에스트로 14기 합격 후기.md",
-    "src/content/blog/Life/Intel Korea SW Engineer Intern 지원 후기.md",
-    "src/content/blog/Life/2023 회고.md",
-    "src/content/blog/Life/2023 새해 목표.md",
-    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
+    "src/content/blog/Life/Intel Korea SW engineer Intern 지원 후기.md",
+    "src/content/blog/Life/전역 후기.md",
+    "src/content/blog/Computer Science/Database/JOIN.md",
+    "src/content/blog/Computer Science/Algorithm/비트마스크.md",
+    "src/content/blog/Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md",
     "().md",
     "src/pages/about.md",
     "public/image/2024 LG CNS 채용연계형 인턴 최종 합격 후기-1711372606614.jpeg",
-    "src/content/blog/Life/전역 후기.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 04 Process.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 28 Locks.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 36 IO Devices.md",
     "src/content/blog/Computer Science/Operating System/OSTEP 17 Free Space Management.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 14 Memory API.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 07 CPU Scheduling.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 05 Process API.md",
-    "src/content/templates/frontmatter.md",
-    "src/content/blog/Development/Java/JPA 연관관계.md",
-    "src/content/blog/Development/Java/Bulk Insert.md",
-    "src/content/blog/Life/옵시디언 플러그인으로 티스토리에 글 올리기.md",
-    "src/content/blog/Life/티스토리 테마 복사용.md",
     "public/image/2023 회고-1704201454824.jpeg",
     "public/image/2023 회고-1704200971578.jpeg",
-    "public/image/2023 회고-1704200496764.jpeg",
-    "public/image/2023 회고-1704200388150.jpeg",
-    "public/image/2023 회고-1704200160964.jpeg",
-    "public/image/2023 회고-1704199732323.jpeg",
-    "public/image/2023 회고-1704199728226.jpeg",
-    "public/image/2023 회고-1704198858271.jpeg",
-    "public/image/2023 회고-1704198140666.jpeg",
     "src/content/blog/PS/Coding Test",
     "src/utils/getUniqueTagsAndCount",
     "node_modules/@astrojs/language-server/node_modules/@astrojs/compiler/LICENSE",

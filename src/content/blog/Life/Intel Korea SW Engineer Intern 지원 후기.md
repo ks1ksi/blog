@@ -4,7 +4,6 @@ aliases:
 author: Seungil Kim
 description: ""
 featured: false
-linter-yaml-title-alias: Intel Korea SW engineer Intern 지원 후기
 postSlug: Intel Korea SW engineer Intern 지원 후기
 pubDatetime: 2023-12-21T01:08:35+09:00
 tags:
