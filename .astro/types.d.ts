@@ -9,8 +9,6 @@ declare module 'astro:content' {
 }
 
 declare module 'astro:content' {
-	export { z } from 'astro/zod';
-
 	type Flatten<T> = T extends { [K: string]: infer U } ? U : never;
 
 	export type CollectionKey = keyof AnyEntryMap;
@@ -18,53 +16,6 @@ declare module 'astro:content' {
 
 	export type ContentCollectionKey = keyof ContentEntryMap;
 	export type DataCollectionKey = keyof DataEntryMap;
-
-	// This needs to be in sync with ImageMetadata
-	export type ImageFunction = () => import('astro/zod').ZodObject<{
-		src: import('astro/zod').ZodString;
-		width: import('astro/zod').ZodNumber;
-		height: import('astro/zod').ZodNumber;
-		format: import('astro/zod').ZodUnion<
-			[
-				import('astro/zod').ZodLiteral<'png'>,
-				import('astro/zod').ZodLiteral<'jpg'>,
-				import('astro/zod').ZodLiteral<'jpeg'>,
-				import('astro/zod').ZodLiteral<'tiff'>,
-				import('astro/zod').ZodLiteral<'webp'>,
-				import('astro/zod').ZodLiteral<'gif'>,
-				import('astro/zod').ZodLiteral<'svg'>,
-				import('astro/zod').ZodLiteral<'avif'>,
-			]
-		>;
-	}>;
-
-	type BaseSchemaWithoutEffects =
-		| import('astro/zod').AnyZodObject
-		| import('astro/zod').ZodUnion<[BaseSchemaWithoutEffects, ...BaseSchemaWithoutEffects[]]>
-		| import('astro/zod').ZodDiscriminatedUnion<string, import('astro/zod').AnyZodObject[]>
-		| import('astro/zod').ZodIntersection<BaseSchemaWithoutEffects, BaseSchemaWithoutEffects>;
-
-	type BaseSchema =
-		| BaseSchemaWithoutEffects
-		| import('astro/zod').ZodEffects<BaseSchemaWithoutEffects>;
-
-	export type SchemaContext = { image: ImageFunction };
-
-	type DataCollectionConfig<S extends BaseSchema> = {
-		type: 'data';
-		schema?: S | ((context: SchemaContext) => S);
-	};
-
-	type ContentCollectionConfig<S extends BaseSchema> = {
-		type?: 'content';
-		schema?: S | ((context: SchemaContext) => S);
-	};
-
-	type CollectionConfig<S> = ContentCollectionConfig<S> | DataCollectionConfig<S>;
-
-	export function defineCollection<S extends BaseSchema>(
-		input: CollectionConfig<S>
-	): CollectionConfig<S>;
 
 	type AllValuesOf<T> = T extends any ? T[keyof T] : never;
 	type ValidContentEntrySlug<C extends keyof ContentEntryMap> = AllValuesOf<
@@ -155,11 +106,11 @@ declare module 'astro:content' {
 			? {
 					collection: C;
 					slug: ValidContentEntrySlug<C>;
-			  }
+				}
 			: {
 					collection: C;
 					id: keyof DataEntryMap[C];
-			  }
+				}
 	>;
 	// Allow generic `string` to avoid excessive type errors in the config
 	// if `dev` is not running to update as you edit.
@@ -175,562 +126,569 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md": {
-	id: "Computer Science/Algorithm/그래프 최단경로 알고리즘 정리.md";
-  slug: "computer-science/algorithm/그래프-최단경로-알고리즘-정리";
+"1. 아키텍팅.md": {
+	id: "1. 아키텍팅.md";
+  slug: "1-아키텍팅";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Algorithm/비트마스크.md": {
-	id: "Computer Science/Algorithm/비트마스크.md";
-  slug: "computer-science/algorithm/비트마스크";
+"10. 네트워킹 2.md": {
+	id: "10. 네트워킹 2.md";
+  slug: "10-네트워킹-2";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Database/JOIN.md": {
-	id: "Computer Science/Database/JOIN.md";
-  slug: "computer-science/database/join";
+"11. 서버리스.md": {
+	id: "11. 서버리스.md";
+  slug: "11-서버리스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Database/SELECT.md": {
-	id: "Computer Science/Database/SELECT.md";
-  slug: "computer-science/database/select";
+"12. 엣지 서비스.md": {
+	id: "12. 엣지 서비스.md";
+  slug: "12-엣지-서비스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 04 Process.md": {
-	id: "Computer Science/Operating System/OSTEP 04 Process.md";
-  slug: "computer-science/operating-system/ostep-04-process";
+"13. 백업 및 복구.md": {
+	id: "13. 백업 및 복구.md";
+  slug: "13-백업-및-복구";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 05 Process API.md": {
-	id: "Computer Science/Operating System/OSTEP 05 Process API.md";
-  slug: "computer-science/operating-system/ostep-05-process-api";
+"2. 계정 보안.md": {
+	id: "2. 계정 보안.md";
+  slug: "2-계정-보안";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 06 Direct Execution.md": {
-	id: "Computer Science/Operating System/OSTEP 06 Direct Execution.md";
-  slug: "computer-science/operating-system/ostep-06-direct-execution";
+"2022 SKKU 프로그래밍 대회 in 소프트의 밤.md": {
+	id: "2022 SKKU 프로그래밍 대회 in 소프트의 밤.md";
+  slug: "2022-skku-프로그래밍-대회-in-소프트의-밤";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 07 CPU Scheduling.md": {
-	id: "Computer Science/Operating System/OSTEP 07 CPU Scheduling.md";
-  slug: "computer-science/operating-system/ostep-07-cpu-scheduling";
+"2022 성균관대학교 프로그래밍 경진대회.md": {
+	id: "2022 성균관대학교 프로그래밍 경진대회.md";
+  slug: "2022-성균관대학교-프로그래밍-경진대회";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md": {
-	id: "Computer Science/Operating System/OSTEP 08 Multi-level Feedback Queue, MLFQ.md";
-  slug: "computer-science/operating-system/ostep-08-multi-level-feedback-queue-mlfq";
+"2023 SKKU AI 교육 해커톤 후기.md": {
+	id: "2023 SKKU AI 교육 해커톤 후기.md";
+  slug: "2023-skku-ai-교육-해커톤-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md": {
-	id: "Computer Science/Operating System/OSTEP 09 Lottery Scheduling.md";
-  slug: "computer-science/operating-system/ostep-09-lottery-scheduling";
+"2023 새해 목표.md": {
+	id: "2023 새해 목표.md";
+  slug: "2023-새해-목표";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md": {
-	id: "Computer Science/Operating System/OSTEP 10 Multi-CPU Scheduling.md";
-  slug: "computer-science/operating-system/ostep-10-multi-cpu-scheduling";
+"2023 회고.md": {
+	id: "2023 회고.md";
+  slug: "2023-회고";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 13 Address Spaces.md": {
-	id: "Computer Science/Operating System/OSTEP 13 Address Spaces.md";
-  slug: "computer-science/operating-system/ostep-13-address-spaces";
+"2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md": {
+	id: "2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md";
+  slug: "2024-lg-cns-채용연계형-인턴-지원-및-합격-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 14 Memory API.md": {
-	id: "Computer Science/Operating System/OSTEP 14 Memory API.md";
-  slug: "computer-science/operating-system/ostep-14-memory-api";
+"2024 LG CNS 채용연계형 인턴 최종 전환 후기.md": {
+	id: "2024 LG CNS 채용연계형 인턴 최종 전환 후기.md";
+  slug: "2024-lg-cns-채용연계형-인턴-최종-전환-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 15 Address Translation.md": {
-	id: "Computer Science/Operating System/OSTEP 15 Address Translation.md";
-  slug: "computer-science/operating-system/ostep-15-address-translation";
+"2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md": {
+	id: "2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md";
+  slug: "2024-카카오-채용-연계형-겨울-인턴십-지원-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 16 Segmentation.md": {
-	id: "Computer Science/Operating System/OSTEP 16 Segmentation.md";
-  slug: "computer-science/operating-system/ostep-16-segmentation";
+"3. 네트워킹 1.md": {
+	id: "3. 네트워킹 1.md";
+  slug: "3-네트워킹-1";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 17 Free Space Management.md": {
-	id: "Computer Science/Operating System/OSTEP 17 Free Space Management.md";
-  slug: "computer-science/operating-system/ostep-17-free-space-management";
+"4. 컴퓨팅.md": {
+	id: "4. 컴퓨팅.md";
+  slug: "4-컴퓨팅";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 18 Introduction to Paging.md": {
-	id: "Computer Science/Operating System/OSTEP 18 Introduction to Paging.md";
-  slug: "computer-science/operating-system/ostep-18-introduction-to-paging";
+"5. 스토리지.md": {
+	id: "5. 스토리지.md";
+  slug: "5-스토리지";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 19 Translation Lookaside Buffer.md": {
-	id: "Computer Science/Operating System/OSTEP 19 Translation Lookaside Buffer.md";
-  slug: "computer-science/operating-system/ostep-19-translation-lookaside-buffer";
+"6. 데이터베이스 서비스.md": {
+	id: "6. 데이터베이스 서비스.md";
+  slug: "6-데이터베이스-서비스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 20 Advanced Page Tables.md": {
-	id: "Computer Science/Operating System/OSTEP 20 Advanced Page Tables.md";
-  slug: "computer-science/operating-system/ostep-20-advanced-page-tables";
+"7. 모니터링 및 크기 조정.md": {
+	id: "7. 모니터링 및 크기 조정.md";
+  slug: "7-모니터링-및-크기-조정";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 21 Swapping Mechanisms.md": {
-	id: "Computer Science/Operating System/OSTEP 21 Swapping Mechanisms.md";
-  slug: "computer-science/operating-system/ostep-21-swapping-mechanisms";
+"8. 자동화.md": {
+	id: "8. 자동화.md";
+  slug: "8-자동화";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 22 Swapping Policies.md": {
-	id: "Computer Science/Operating System/OSTEP 22 Swapping Policies.md";
-  slug: "computer-science/operating-system/ostep-22-swapping-policies";
+"9. 컨테이너.md": {
+	id: "9. 컨테이너.md";
+  slug: "9-컨테이너";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md": {
-	id: "Computer Science/Operating System/OSTEP 26 Concurrency and Threads.md";
-  slug: "computer-science/operating-system/ostep-26-concurrency-and-threads";
+"Beanstalk 환경변수 추출.md": {
+	id: "Beanstalk 환경변수 추출.md";
+  slug: "beanstalk-환경변수-추출";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 27 Thread API.md": {
-	id: "Computer Science/Operating System/OSTEP 27 Thread API.md";
-  slug: "computer-science/operating-system/ostep-27-thread-api";
+"Bulk Insert.md": {
+	id: "Bulk Insert.md";
+  slug: "bulk-insert";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 28 Locks.md": {
-	id: "Computer Science/Operating System/OSTEP 28 Locks.md";
-  slug: "computer-science/operating-system/ostep-28-locks";
+"Intel Korea SW Engineer Intern 지원 후기.md": {
+	id: "Intel Korea SW Engineer Intern 지원 후기.md";
+  slug: "intel-korea-sw-engineer-intern-지원-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 29 Locked Data Structures.md": {
-	id: "Computer Science/Operating System/OSTEP 29 Locked Data Structures.md";
-  slug: "computer-science/operating-system/ostep-29-locked-data-structures";
+"JOIN.md": {
+	id: "JOIN.md";
+  slug: "join";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 30 Condition Variables.md": {
-	id: "Computer Science/Operating System/OSTEP 30 Condition Variables.md";
-  slug: "computer-science/operating-system/ostep-30-condition-variables";
+"JPA 연관관계.md": {
+	id: "JPA 연관관계.md";
+  slug: "jpa-연관관계";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 31 Semaphores.md": {
-	id: "Computer Science/Operating System/OSTEP 31 Semaphores.md";
-  slug: "computer-science/operating-system/ostep-31-semaphores";
+"OSTEP 04 Process.md": {
+	id: "OSTEP 04 Process.md";
+  slug: "ostep-04-process";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md": {
-	id: "Computer Science/Operating System/OSTEP 32 Concurrency Bugs.md";
-  slug: "computer-science/operating-system/ostep-32-concurrency-bugs";
+"OSTEP 05 Process API.md": {
+	id: "OSTEP 05 Process API.md";
+  slug: "ostep-05-process-api";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md": {
-	id: "Computer Science/Operating System/OSTEP 33 Event-based Concurrency.md";
-  slug: "computer-science/operating-system/ostep-33-event-based-concurrency";
+"OSTEP 06 Direct Execution.md": {
+	id: "OSTEP 06 Direct Execution.md";
+  slug: "ostep-06-direct-execution";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 36 IO Devices.md": {
-	id: "Computer Science/Operating System/OSTEP 36 IO Devices.md";
-  slug: "computer-science/operating-system/ostep-36-io-devices";
+"OSTEP 07 CPU Scheduling.md": {
+	id: "OSTEP 07 CPU Scheduling.md";
+  slug: "ostep-07-cpu-scheduling";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md": {
-	id: "Computer Science/Operating System/OSTEP 37 Hard Disk Drives.md";
-  slug: "computer-science/operating-system/ostep-37-hard-disk-drives";
+"OSTEP 08 Multi-level Feedback Queue, MLFQ.md": {
+	id: "OSTEP 08 Multi-level Feedback Queue, MLFQ.md";
+  slug: "ostep-08-multi-level-feedback-queue-mlfq";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md": {
-	id: "Computer Science/Operating System/OSTEP 38 Redundant Disk Arrays (RAID).md";
-  slug: "computer-science/operating-system/ostep-38-redundant-disk-arrays-raid";
+"OSTEP 09 Lottery Scheduling.md": {
+	id: "OSTEP 09 Lottery Scheduling.md";
+  slug: "ostep-09-lottery-scheduling";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 40 File System Implementation.md": {
-	id: "Computer Science/Operating System/OSTEP 40 File System Implementation.md";
-  slug: "computer-science/operating-system/ostep-40-file-system-implementation";
+"OSTEP 10 Multi-CPU Scheduling.md": {
+	id: "OSTEP 10 Multi-CPU Scheduling.md";
+  slug: "ostep-10-multi-cpu-scheduling";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Computer Science/Operating System/OSTEP 교재.md": {
-	id: "Computer Science/Operating System/OSTEP 교재.md";
-  slug: "computer-science/operating-system/ostep-교재";
+"OSTEP 13 Address Spaces.md": {
+	id: "OSTEP 13 Address Spaces.md";
+  slug: "ostep-13-address-spaces";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/1. 아키텍팅.md": {
-	id: "Development/AWS/Architecting on AWS/1. 아키텍팅.md";
-  slug: "development/aws/architecting-on-aws/1-아키텍팅";
+"OSTEP 14 Memory API.md": {
+	id: "OSTEP 14 Memory API.md";
+  slug: "ostep-14-memory-api";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/10. 네트워킹 2.md": {
-	id: "Development/AWS/Architecting on AWS/10. 네트워킹 2.md";
-  slug: "development/aws/architecting-on-aws/10-네트워킹-2";
+"OSTEP 15 Address Translation.md": {
+	id: "OSTEP 15 Address Translation.md";
+  slug: "ostep-15-address-translation";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/11. 서버리스.md": {
-	id: "Development/AWS/Architecting on AWS/11. 서버리스.md";
-  slug: "development/aws/architecting-on-aws/11-서버리스";
+"OSTEP 16 Segmentation.md": {
+	id: "OSTEP 16 Segmentation.md";
+  slug: "ostep-16-segmentation";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/12. 엣지 서비스.md": {
-	id: "Development/AWS/Architecting on AWS/12. 엣지 서비스.md";
-  slug: "development/aws/architecting-on-aws/12-엣지-서비스";
+"OSTEP 17 Free Space Management.md": {
+	id: "OSTEP 17 Free Space Management.md";
+  slug: "ostep-17-free-space-management";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/13. 백업 및 복구.md": {
-	id: "Development/AWS/Architecting on AWS/13. 백업 및 복구.md";
-  slug: "development/aws/architecting-on-aws/13-백업-및-복구";
+"OSTEP 18 Introduction to Paging.md": {
+	id: "OSTEP 18 Introduction to Paging.md";
+  slug: "ostep-18-introduction-to-paging";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/2. 계정 보안.md": {
-	id: "Development/AWS/Architecting on AWS/2. 계정 보안.md";
-  slug: "development/aws/architecting-on-aws/2-계정-보안";
+"OSTEP 19 Translation Lookaside Buffer.md": {
+	id: "OSTEP 19 Translation Lookaside Buffer.md";
+  slug: "ostep-19-translation-lookaside-buffer";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/3. 네트워킹 1.md": {
-	id: "Development/AWS/Architecting on AWS/3. 네트워킹 1.md";
-  slug: "development/aws/architecting-on-aws/3-네트워킹-1";
+"OSTEP 20 Advanced Page Tables.md": {
+	id: "OSTEP 20 Advanced Page Tables.md";
+  slug: "ostep-20-advanced-page-tables";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/4. 컴퓨팅.md": {
-	id: "Development/AWS/Architecting on AWS/4. 컴퓨팅.md";
-  slug: "development/aws/architecting-on-aws/4-컴퓨팅";
+"OSTEP 21 Swapping Mechanisms.md": {
+	id: "OSTEP 21 Swapping Mechanisms.md";
+  slug: "ostep-21-swapping-mechanisms";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/5. 스토리지.md": {
-	id: "Development/AWS/Architecting on AWS/5. 스토리지.md";
-  slug: "development/aws/architecting-on-aws/5-스토리지";
+"OSTEP 22 Swapping Policies.md": {
+	id: "OSTEP 22 Swapping Policies.md";
+  slug: "ostep-22-swapping-policies";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/6. 데이터베이스 서비스.md": {
-	id: "Development/AWS/Architecting on AWS/6. 데이터베이스 서비스.md";
-  slug: "development/aws/architecting-on-aws/6-데이터베이스-서비스";
+"OSTEP 26 Concurrency and Threads.md": {
+	id: "OSTEP 26 Concurrency and Threads.md";
+  slug: "ostep-26-concurrency-and-threads";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/7. 모니터링 및 크기 조정.md": {
-	id: "Development/AWS/Architecting on AWS/7. 모니터링 및 크기 조정.md";
-  slug: "development/aws/architecting-on-aws/7-모니터링-및-크기-조정";
+"OSTEP 27 Thread API.md": {
+	id: "OSTEP 27 Thread API.md";
+  slug: "ostep-27-thread-api";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/8. 자동화.md": {
-	id: "Development/AWS/Architecting on AWS/8. 자동화.md";
-  slug: "development/aws/architecting-on-aws/8-자동화";
+"OSTEP 28 Locks.md": {
+	id: "OSTEP 28 Locks.md";
+  slug: "ostep-28-locks";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Architecting on AWS/9. 컨테이너.md": {
-	id: "Development/AWS/Architecting on AWS/9. 컨테이너.md";
-  slug: "development/aws/architecting-on-aws/9-컨테이너";
+"OSTEP 29 Locked Data Structures.md": {
+	id: "OSTEP 29 Locked Data Structures.md";
+  slug: "ostep-29-locked-data-structures";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/AWS/Beanstalk 환경변수 추출.md": {
-	id: "Development/AWS/Beanstalk 환경변수 추출.md";
-  slug: "development/aws/beanstalk-환경변수-추출";
+"OSTEP 30 Condition Variables.md": {
+	id: "OSTEP 30 Condition Variables.md";
+  slug: "ostep-30-condition-variables";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/JAVA/Bulk Insert.md": {
-	id: "Development/JAVA/Bulk Insert.md";
-  slug: "development/java/bulk-insert";
+"OSTEP 31 Semaphores.md": {
+	id: "OSTEP 31 Semaphores.md";
+  slug: "ostep-31-semaphores";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Development/JAVA/JPA 연관관계.md": {
-	id: "Development/JAVA/JPA 연관관계.md";
-  slug: "development/java/jpa-연관관계";
+"OSTEP 32 Concurrency Bugs.md": {
+	id: "OSTEP 32 Concurrency Bugs.md";
+  slug: "ostep-32-concurrency-bugs";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2023 SKKU AI 교육 해커톤 후기.md": {
-	id: "Life/2023 SKKU AI 교육 해커톤 후기.md";
-  slug: "life/2023-skku-ai-교육-해커톤-후기";
+"OSTEP 33 Event-based Concurrency.md": {
+	id: "OSTEP 33 Event-based Concurrency.md";
+  slug: "ostep-33-event-based-concurrency";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2023 새해 목표.md": {
-	id: "Life/2023 새해 목표.md";
-  slug: "life/2023-새해-목표";
+"OSTEP 36 IO Devices.md": {
+	id: "OSTEP 36 IO Devices.md";
+  slug: "ostep-36-io-devices";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2023 회고.md": {
-	id: "Life/2023 회고.md";
-  slug: "life/2023-회고";
+"OSTEP 37 Hard Disk Drives.md": {
+	id: "OSTEP 37 Hard Disk Drives.md";
+  slug: "ostep-37-hard-disk-drives";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md": {
-	id: "Life/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md";
-  slug: "life/2024-lg-cns-채용연계형-인턴-지원-및-합격-후기";
+"OSTEP 38 Redundant Disk Arrays (RAID).md": {
+	id: "OSTEP 38 Redundant Disk Arrays (RAID).md";
+  slug: "ostep-38-redundant-disk-arrays-raid";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md": {
-	id: "Life/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md";
-  slug: "life/2024-카카오-채용-연계형-겨울-인턴십-지원-후기";
+"OSTEP 40 File System Implementation.md": {
+	id: "OSTEP 40 File System Implementation.md";
+  slug: "ostep-40-file-system-implementation";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/Intel Korea SW Engineer Intern 지원 후기.md": {
-	id: "Life/Intel Korea SW Engineer Intern 지원 후기.md";
-  slug: "life/intel-korea-sw-engineer-intern-지원-후기";
+"OSTEP 교재.md": {
+	id: "OSTEP 교재.md";
+  slug: "ostep-교재";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/SW 마에스트로 14기 합격 후기.md": {
-	id: "Life/SW 마에스트로 14기 합격 후기.md";
-  slug: "life/sw-마에스트로-14기-합격-후기";
+"Real MySQL 8.0 8장 인덱스.md": {
+	id: "Real MySQL 8.0 8장 인덱스.md";
+  slug: "real-mysql-80-8장-인덱스";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/옵시디언 플러그인으로 티스토리에 글 올리기.md": {
-	id: "Life/옵시디언 플러그인으로 티스토리에 글 올리기.md";
-  slug: "life/옵시디언-플러그인으로-티스토리에-글-올리기";
+"Real MySQL 8.0 9장 옵티마이저와 힌트.md": {
+	id: "Real MySQL 8.0 9장 옵티마이저와 힌트.md";
+  slug: "real-mysql-80-9장-옵티마이저와-힌트";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/전역 후기.md": {
-	id: "Life/전역 후기.md";
-  slug: "life/전역-후기";
+"SELECT.md": {
+	id: "SELECT.md";
+  slug: "select";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"Life/티스토리 테마 복사용.md": {
-	id: "Life/티스토리 테마 복사용.md";
-  slug: "life/티스토리-테마-복사용";
+"SW 마에스트로 14기 합격 후기.md": {
+	id: "SW 마에스트로 14기 합격 후기.md";
+  slug: "sw-마에스트로-14기-합격-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준  2261번 가장 가까운 두 점.md": {
-	id: "PS/BOJ/백준  2261번 가장 가까운 두 점.md";
-  slug: "ps/boj/백준--2261번-가장-가까운-두-점";
+"그래프 최단경로 알고리즘 정리.md": {
+	id: "그래프 최단경로 알고리즘 정리.md";
+  slug: "그래프-최단경로-알고리즘-정리";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 1062번 가르침.md": {
-	id: "PS/BOJ/백준 1062번 가르침.md";
-  slug: "ps/boj/백준-1062번-가르침";
+"백준  2261번 가장 가까운 두 점.md": {
+	id: "백준  2261번 가장 가까운 두 점.md";
+  slug: "백준--2261번-가장-가까운-두-점";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 10986번 나머지 합.md": {
-	id: "PS/BOJ/백준 10986번 나머지 합.md";
-  slug: "ps/boj/백준-10986번-나머지-합";
+"백준 1062번 가르침.md": {
+	id: "백준 1062번 가르침.md";
+  slug: "백준-1062번-가르침";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 11444번 피보나치 수 6.md": {
-	id: "PS/BOJ/백준 11444번 피보나치 수 6.md";
-  slug: "ps/boj/백준-11444번-피보나치-수-6";
+"백준 10986번 나머지 합.md": {
+	id: "백준 10986번 나머지 합.md";
+  slug: "백준-10986번-나머지-합";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 13489번 Vještica.md": {
-	id: "PS/BOJ/백준 13489번 Vještica.md";
-  slug: "ps/boj/백준-13489번-vještica";
+"백준 11444번 피보나치 수 6.md": {
+	id: "백준 11444번 피보나치 수 6.md";
+  slug: "백준-11444번-피보나치-수-6";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 13711번 LCS 4.md": {
-	id: "PS/BOJ/백준 13711번 LCS 4.md";
-  slug: "ps/boj/백준-13711번-lcs-4";
+"백준 13489번 Vještica.md": {
+	id: "백준 13489번 Vještica.md";
+  slug: "백준-13489번-vještica";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 1588번 수열.md": {
-	id: "PS/BOJ/백준 1588번 수열.md";
-  slug: "ps/boj/백준-1588번-수열";
+"백준 13711번 LCS 4.md": {
+	id: "백준 13711번 LCS 4.md";
+  slug: "백준-13711번-lcs-4";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 17297번 Messi Gimossi.md": {
-	id: "PS/BOJ/백준 17297번 Messi Gimossi.md";
-  slug: "ps/boj/백준-17297번-messi-gimossi";
+"백준 1588번 수열.md": {
+	id: "백준 1588번 수열.md";
+  slug: "백준-1588번-수열";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 17835번 면접보는 승범이네.md": {
-	id: "PS/BOJ/백준 17835번 면접보는 승범이네.md";
-  slug: "ps/boj/백준-17835번-면접보는-승범이네";
+"백준 17297번 Messi Gimossi.md": {
+	id: "백준 17297번 Messi Gimossi.md";
+  slug: "백준-17297번-messi-gimossi";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 23741번 야바위 게임.md": {
-	id: "PS/BOJ/백준 23741번 야바위 게임.md";
-  slug: "ps/boj/백준-23741번-야바위-게임";
+"백준 17835번 면접보는 승범이네.md": {
+	id: "백준 17835번 면접보는 승범이네.md";
+  slug: "백준-17835번-면접보는-승범이네";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 24229번 모두싸인 출근길.md": {
-	id: "PS/BOJ/백준 24229번 모두싸인 출근길.md";
-  slug: "ps/boj/백준-24229번-모두싸인-출근길";
+"백준 23741번 야바위 게임.md": {
+	id: "백준 23741번 야바위 게임.md";
+  slug: "백준-23741번-야바위-게임";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 25949번 Jar Game.md": {
-	id: "PS/BOJ/백준 25949번 Jar Game.md";
-  slug: "ps/boj/백준-25949번-jar-game";
+"백준 24229번 모두싸인 출근길.md": {
+	id: "백준 24229번 모두싸인 출근길.md";
+  slug: "백준-24229번-모두싸인-출근길";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 25953번 템포럴 그래프.md": {
-	id: "PS/BOJ/백준 25953번 템포럴 그래프.md";
-  slug: "ps/boj/백준-25953번-템포럴-그래프";
+"백준 25949번 Jar Game.md": {
+	id: "백준 25949번 Jar Game.md";
+  slug: "백준-25949번-jar-game";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 2629번 양팔저울.md": {
-	id: "PS/BOJ/백준 2629번 양팔저울.md";
-  slug: "ps/boj/백준-2629번-양팔저울";
+"백준 25953번 템포럴 그래프.md": {
+	id: "백준 25953번 템포럴 그래프.md";
+  slug: "백준-25953번-템포럴-그래프";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 27066번 나무 블럭 게임.md": {
-	id: "PS/BOJ/백준 27066번 나무 블럭 게임.md";
-  slug: "ps/boj/백준-27066번-나무-블럭-게임";
+"백준 2629번 양팔저울.md": {
+	id: "백준 2629번 양팔저울.md";
+  slug: "백준-2629번-양팔저울";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 27068번 이미지 보정 작업.md": {
-	id: "PS/BOJ/백준 27068번 이미지 보정 작업.md";
-  slug: "ps/boj/백준-27068번-이미지-보정-작업";
+"백준 27066번 나무 블럭 게임.md": {
+	id: "백준 27066번 나무 블럭 게임.md";
+  slug: "백준-27066번-나무-블럭-게임";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 9370번 미확인 도착지.md": {
-	id: "PS/BOJ/백준 9370번 미확인 도착지.md";
-  slug: "ps/boj/백준-9370번-미확인-도착지";
+"백준 27068번 이미지 보정 작업.md": {
+	id: "백준 27068번 이미지 보정 작업.md";
+  slug: "백준-27068번-이미지-보정-작업";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md": {
-	id: "PS/BOJ/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md";
-  slug: "ps/boj/백준-9694번-무엇을-아느냐가-아니라-누구를-아느냐가-문제다";
+"백준 9370번 미확인 도착지.md": {
+	id: "백준 9370번 미확인 도착지.md";
+  slug: "백준-9370번-미확인-도착지";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md": {
-	id: "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md";
-  slug: "ps/programming-contest/2022-skku-프로그래밍-대회-in-소프트의-밤";
+"백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md": {
+	id: "백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md";
+  slug: "백준-9694번-무엇을-아느냐가-아니라-누구를-아느냐가-문제다";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md": {
-	id: "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md";
-  slug: "ps/programming-contest/2022-성균관대학교-프로그래밍-경진대회";
+"비트마스크.md": {
+	id: "비트마스크.md";
+  slug: "비트마스크";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"전역 후기.md": {
+	id: "전역 후기.md";
+  slug: "전역-후기";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -754,5 +712,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	export type ContentConfig = typeof import("../src/content/config.js");
 }

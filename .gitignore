@@ -186,3 +186,6 @@ pnpm-debug.log*
 
 # Obsidian trash
 .trash
+
+# idea
+.idea

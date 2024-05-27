@@ -7,11 +7,14 @@ export const SITE: Site = {
   title: "ks1ksi",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 10,
+  postPerPage: 5,
+  scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
 };
 
-// export const LOCALE = ["en-EN"]; // set to [] to use the environment default
-export const LOCALE = ["ko-KR"]; // set to [] to use the environment default
+export const LOCALE = {
+  lang: "ko", // html lang code. Set this empty and default will be "en"
+  langTag: ["ko-KR"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+} as const;
 
 export const LOGO_IMAGE = {
   enable: false,
