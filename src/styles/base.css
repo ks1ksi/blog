@@ -5,12 +5,12 @@
 @layer base {
   :root,
   html[data-theme="light"] {
-    --color-fill: 253, 246, 227; /* Solarized Light Background */
-    --color-text-base: 88, 110, 117; /* Darker Foreground for better readability */
-    --color-accent: 38, 139, 210; /* Solarized Light Accent Blue */
-    --color-card: 238, 232, 213; /* Solarized Light Card/Secondary Background */
-    --color-card-muted: 147, 161, 161; /* Solarized Light Muted/Comment */
-    --color-border: 147, 161, 161; /* Solarized Light Border */
+    --color-fill: 246, 238, 225;
+    --color-text-base: 1, 44, 86;
+    --color-accent: 225, 74, 57;
+    --color-card: 217, 209, 195;
+    --color-card-muted: 239, 216, 176;
+    --color-border: 220, 152, 145;
   }
   html[data-theme="dark"] {
     --color-fill: 0, 1, 35;
