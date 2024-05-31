@@ -1,7 +1,7 @@
 ---
 author: Seungil Kim
 description: 
-featured: true
+featured: false
 postSlug: 2023 SKKU AI 교육 해커톤 후기
 pubDatetime: 2023-09-24T18:04:29+09:00
 tags:
