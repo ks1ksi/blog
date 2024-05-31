@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "970a2cf48aea8356",
+        "id": "0e8f63854dbd1a00",
         "type": "tabs",
         "children": [
           {
-            "id": "8320efcfd9df19b9",
+            "id": "f16c6c956ec5aaf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,14 +160,14 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "8320efcfd9df19b9",
+  "active": "f16c6c956ec5aaf6",
   "lastOpenFiles": [
+    "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717150878671.jpeg",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717150862498.jpeg",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717147680658.jpeg",
     "src/content/blog/2024 LG CNS 채용연계형 인턴 최종 전환 후기.md",
     "src/content/blog/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
-    "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md",
     "src/content/blog/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
     "src/content/blog/2022 성균관대학교 프로그래밍 경진대회.md",
     "src/content/blog/2023 SKKU AI 교육 해커톤 후기.md",
@@ -182,7 +182,6 @@
     "무제 파일.md",
     "src/content/blog/2024 팀네이버 신입 공채 지원 후기.md",
     "public/image/2024 팀네이버 신입 공채 지원 후기-1717139873745.jpeg",
-    "public/image/2024 팀네이버 신입 공채 지원 후기-1717138959875.jpeg",
     "src/content/blog/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
     "src/content/templates/frontmatter.md",
     "README.md",

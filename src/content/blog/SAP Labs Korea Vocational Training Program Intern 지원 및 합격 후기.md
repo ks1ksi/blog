@@ -132,7 +132,7 @@ HR Interview를 너무 말아먹고 오히려 마음 편하게 봐서 잘 본 �
 
 합격하면 이런식으로 오퍼레터가 온다. 
 
-서류 - Phone Screening - Coding Test - HR Interview - PT Interview 라는 험난한 과정을 거쳐서 합격하게 되었다. 
+Resume Screening - Phone Screening - Coding Test - HR Interview - PT Interview 라는 험난한 과정을 거쳐서 합격하게 되었다. 
 
 
 ![[SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717150878671.jpeg]]
