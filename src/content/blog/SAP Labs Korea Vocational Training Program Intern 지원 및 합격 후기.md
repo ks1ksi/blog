@@ -19,14 +19,6 @@ SAP Labs Korea에서 채용 연계형 인턴을 모집하고 있어 지원해 �
 
 ## Job Description
 
-**We help the world run better**
-
-Our company culture is focused on helping our employees enable innovation by building breakthroughs together. How? We focus every day on building the foundation for tomorrow and creating a workplace that embraces differences, values flexibility, and is aligned to our purpose-driven and future-focused work. We offer a highly collaborative, caring team environment with a strong focus on learning and development, recognition for your individual contributions, and a variety of benefit options for you to choose from.Apply now!
-
-**About SAP VT/STAR Program**
-
-The Vocational Training Program is a unique opportunity to combine academic study with industry experience with SAP, the world’s leading business software provider. This program will kick start students’ careers by giving them an opportunity to put their academic studies to immediate use in industry. The wide-ranging program of studies provides for students an opportunity to develop themselves personally and professionally. Upon completion of your studies, you can consider employment in almost any area of the company. As an intern you are part of global Vocational Training (VT) / Student Training and Rotation (STAR) program.  We are located in 14 countries with approx. 1,300 students.
-
 **Education and qualifications**
 
 We require that you meet the core competencies and skills listed below.
