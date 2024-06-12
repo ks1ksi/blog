@@ -721,6 +721,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md": {
+	id: "토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md";
+  slug: "토스-3년-이하-server-developer-challenge-지원-및-합격-후기";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 };
 "templates": {
 "frontmatter.md": {

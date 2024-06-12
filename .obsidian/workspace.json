@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "0e8f63854dbd1a00",
+        "id": "da494813514d5ba9",
         "type": "tabs",
         "children": [
           {
-            "id": "f16c6c956ec5aaf6",
+            "id": "86b077bc8d2693d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/blog/토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6892e4177079cb9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md",
+                "file": "src/content/blog/토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md",
+                "file": "src/content/blog/토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md"
+                "file": "src/content/blog/토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md"
               }
             }
           },
@@ -160,21 +172,43 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "f16c6c956ec5aaf6",
+  "active": "86b077bc8d2693d2",
   "lastOpenFiles": [
-    "src/content/blog/2024 팀네이버 신입 공채 지원 후기.md",
-    "src/content/blog/2024 카카오 채용 연계형 겨울 인턴십 지원 후기.md",
     "src/content/blog/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기.md",
+    "src/content/blog/토스 3년 이하 Server Developer Challenge 지원 및 합격 후기.md",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718227240418.jpeg",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718226921407.jpeg",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718226905449.jpeg",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718226879801.jpeg",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718226677069.jpeg",
+    "public/image/토스 3년 이하 Server Developer Challenge 합격 후기-1718226485349.jpeg",
+    "src/content/blog/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
+    "src/content/blog/2024 LG CNS 채용연계형 인턴 최종 전환 후기.md",
+    "src/content/blog/그래프 최단경로 알고리즘 정리.md",
+    "src/content/blog/2022 성균관대학교 프로그래밍 경진대회.md",
+    "src/content/blog/5. 스토리지.md",
+    "src/content/blog/JPA 연관관계.md",
+    "src/content/blog/백준 1062번 가르침.md",
+    "src/content/blog/안녕하세요.md",
+    "src/content/blog/백준  2261번 가장 가까운 두 점.md",
+    "src/content/blog/백준 27068번 이미지 보정 작업.md",
+    "src/content/blog/1. 아키텍팅.md",
+    "src/content/blog/SW 마에스트로 14기 합격 후기.md",
+    "src/content/blog/OSTEP 05 Process API.md",
+    "src/content/blog/OSTEP 04 Process.md",
+    "src/content/blog/JOIN.md",
+    "src/content/blog/Google Software Engineering Intern, Summer 2024 지원 후기.md",
+    "src/content/blog/Beanstalk 환경변수 추출.md",
+    "src/content/blog/AWS Korea Associate Solutions Architect Internship 채용연계형 인턴 지원 후기.md",
+    "src/content/blog/전역 후기.md",
+    "src/content/blog/백준 17835번 면접보는 승범이네.md",
+    "src/content/blog/백준 9370번 미확인 도착지.md",
+    "src/content/blog/백준 9694번 무엇을 아느냐가 아니라 누구를 아느냐가 문제다.md",
+    "src/content/blog/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152070977.jpeg",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152069961.jpeg",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152068992.jpeg",
     "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152067756.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152066778.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152065770.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152064814.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152063870.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152062902.jpeg",
-    "public/image/SAP Labs Korea Vocational Training Program Intern 지원 및 합격 후기-1717152061953.jpeg",
     "dist/about/index.html",
     "dist/about",
     "dist/404.html",
@@ -185,28 +219,6 @@
     "dist/chunks/전역 후기_DEUcyP4S.mjs",
     "dist/chunks/전역 후기_C2nMIHPP.mjs",
     "dist/chunks/전역 후기_8ngyGqAs.mjs",
-    "src/content/blog/2024 LG CNS 채용연계형 인턴 최종 전환 후기.md",
-    "src/content/blog/2024 LG CNS 채용연계형 인턴 지원 및 합격 후기.md",
-    "src/content/blog/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
-    "src/content/blog/2022 성균관대학교 프로그래밍 경진대회.md",
-    "src/content/blog/2023 SKKU AI 교육 해커톤 후기.md",
-    "src/content/blog/AWS Korea Associate Solutions Architect Internship 채용연계형 인턴 지원 후기.md",
-    "src/content/blog/Google Software Engineering Intern, Summer 2024 지원 후기.md",
-    "무제 파일.md",
-    "src/content/templates/frontmatter.md",
-    "README.md",
-    "무제 파일.canvas",
-    "src/content/blog/OSTEP 19 Translation Lookaside Buffer.md",
-    "src/content/blog/OSTEP 14 Memory API.md",
-    "src/content/blog/Computer Science/Database/Real MySQL 8.0 5장 트랜잭션과 잠금.md",
-    "src/content/blog/Life/2023 새해 목표.md",
-    "src/content/blog/Life/2023 SKKU AI 교육 해커톤 후기.md",
-    "src/content/blog/Computer Science/Database/SELECT.md",
-    "src/content/blog/Computer Science/Operating System/OSTEP 40 File System Implementation.md",
-    "src/content/blog/Development/Java/JPA 연관관계.md",
-    "src/content/blog/Development/Java/Bulk Insert.md",
-    "src/content/blog/PS/BOJ/백준 27068번 이미지 보정 작업.md",
-    "src/content/blog/PS/BOJ/백준 27066번 나무 블럭 게임.md",
-    "src/content/blog/PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md"
+    "무제 파일.canvas"
   ]
 }
