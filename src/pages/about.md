@@ -5,14 +5,17 @@ title: "Seungil Kim"
 
 ## Experience
 
+### Toss Payments Server Developer
+***<div style="text-align: right"> Jul. 2024 - Present </div>***
+- Toss Payments의 서버 개발자로 근무하고 있습니다.
+
+---
+
 ### LG CNS Software Engineer Intern
 ***<div style="text-align: right"> Jan. 2024 - Feb. 2024 </div>***
-- LG CNS의 AWS Launch Center에서 인턴으로 근무했습니다.
-- AWS를 활용한 서비스 개발 및 운영을 경험했습니다.
-- Amazon Bedrock을 활용한 블로그 썸네일 생성 자동화 서비스를 개발했습니다.
-- Java와 Spring Boot로 백엔드 서버를 개발했습니다.
-- 정규직으로 최종 전환되었습니다.
-
+- LG CNS 클라우드 사업부 인턴으로 근무했습니다.
+- Amazon Bedrock을 활용한 블로그 썸네일 생성 자동화 프로젝트를 진행했습니다.
+  
 ---
 
 ### Software Maestro 14th Trainee 
@@ -21,7 +24,6 @@ title: "Seungil Kim"
 - 과학기술정보통신부 주관 SW 인재 양성 프로그램인 소프트웨어 마에스트로 14기로 선발되었습니다.
 - 개인 지식 관리 서비스 "Remak"을 개발했습니다. ([remak.io](https://remak.io))
 - 3명의 팀원과 프로젝트를 진행했고, 팀장과 백엔드 개발을 담당했습니다.
-- TypeScript와 NestJS로 백엔드 서버를 개발했습니다.
 
 ---
 
@@ -35,15 +37,14 @@ title: "Seungil Kim"
 ## Education
 
 ### Sungkyunkwan University, Computer Education, Bachelors of Science
-***<div style="text-align: right"> Mar. 2019 - Present </div>***
+***<div style="text-align: right"> Mar. 2019 - Feb. 2025 </div>***
 
-- 전체 평점: 3.75/4.5, 전공 평점: 4.02/4.5
-- 이수 학점: 122/140
+- 전체 평점: 3.76/4.5, 전공 평점: 3.97/4.5
 
 ---
 
 ### Algorithm Problem Solving Club NPC 
-***<div style="text-align: right"> Sep. 2022 - Present </div>***
+***<div style="text-align: right"> Sep. 2022 - Feb. 2025 </div>***
 - 알고리즘 스터디 및 프로그래밍 경진 대회에 참여했습니다.
 
 ---
@@ -54,6 +55,6 @@ Data Structures, Database System, Computer Architecture, Problem Solving and Alg
 ---
 
 ## Tech Stack
-- **Languages**: Java, JavaScript, TypeScript, Python, C, C++
+- **Languages**: Kotlin, Java, JavaScript, TypeScript, C++
 - **Frameworks**: Spring Boot, Express, NestJS
 - **Etc**: Git, Docker
