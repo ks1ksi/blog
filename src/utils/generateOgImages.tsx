@@ -1,19 +1,19 @@
 import { Resvg } from "@resvg/resvg-js";
 import { type CollectionEntry } from "astro:content";
 import fs from "fs";
-import satori, { type SatoriOptions } from "satori";
+import { type SatoriOptions } from "satori";
 import postOgImage from "./og-templates/post";
 import siteOgImage from "./og-templates/site";
 
 const fetchFonts = async () => {
   // import font from "fonts/NotoSansKR-Regular.ttf"
   const fontRegular: ArrayBuffer = fs.readFileSync(
-    "public/fonts/NotoSansKR-Regular.ttf"
+    "public/fonts/NotoSansKR-Regular.ttf",
   );
 
   // Bold Font
   const fontBold: ArrayBuffer = fs.readFileSync(
-    "public/fonts/NotoSansKR-Bold.ttf"
+    "public/fonts/NotoSansKR-Bold.ttf",
   );
 
   return { fontRegular, fontBold };
