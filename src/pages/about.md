@@ -7,13 +7,13 @@ title: "Seungil Kim"
 
 ### Toss Payments Server Developer
 ***<div style="text-align: right"> Jul. 2024 - Present </div>***
-- Toss Payments의 서버 개발자로 근무하고 있습니다.
+- 토스페이먼츠 서버 개발자로 일하고 있습니다.
 
 ---
 
 ### LG CNS Software Engineer Intern
 ***<div style="text-align: right"> Jan. 2024 - Feb. 2024 </div>***
-- LG CNS 클라우드 사업부 인턴으로 근무했습니다.
+- LG CNS 클라우드 사업부 인턴십을 수료했습니다.
 - Amazon Bedrock을 활용한 블로그 썸네일 생성 자동화 프로젝트를 진행했습니다.
   
 ---
