@@ -8,7 +8,14 @@ export const SITE: Site = {
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,
+  postPerIndex: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  // showArchives: true,
+  // editPost: {
+  //   url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
+  //   text: "Suggest Changes",
+  //   appendFilePath: true,
+  // },
 };
 
 export const LOCALE = {
@@ -57,7 +64,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Twitter",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
+    linkTitle: `${SITE.title} on X`,
     active: false,
   },
   {

@@ -57,13 +57,13 @@
     prose-figcaption:!text-skin-base prose-figcaption:opacity-70
     prose-strong:!text-skin-base
 
-    prose-code:rounded prose-code:bg-skin-card 
+    prose-code:rounded prose-code:bg-skin-card
     prose-code:bg-opacity-75 prose-code:p-1 prose-code:!text-skin-base
     prose-code:before:!content-[''] prose-code:after:!content-['']
     prose-pre:!text-skin-base prose-ol:!text-skin-base
     prose-ul:overflow-x-clip prose-ul:!text-skin-base prose-li:marker:!text-skin-accent
     prose-table:text-skin-base prose-th:border
-    prose-th:border-skin-line prose-td:border 
+    prose-th:border-skin-line prose-td:border
     prose-td:border-skin-line prose-img:!my-2
     prose-img:mx-auto prose-img:border-2
     prose-img:border-skin-line prose-hr:!border-skin-line;
@@ -114,6 +114,10 @@
     @apply bg-skin-card-muted;
   }
 
+  /* ===== Code Blocks & Syntax Highlighting ===== */
+  pre:has(code) {
+    @apply border border-skin-line;
+  }
   code,
   blockquote {
     word-wrap: break-word;
@@ -121,6 +125,16 @@
 
   pre > code {
     white-space: pre;
+  }
+
+  /* Apply Dark Theme (if multi-theme specified) */
+  html[data-theme="dark"] pre:has(code),
+  html[data-theme="dark"] pre:has(code) span {
+    color: var(--shiki-dark) !important;
+    background-color: var(--shiki-dark-bg) !important;
+    font-style: var(--shiki-dark-font-style) !important;
+    font-weight: var(--shiki-dark-font-weight) !important;
+    text-decoration: var(--shiki-dark-text-decoration) !important;
   }
 }
 

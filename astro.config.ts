@@ -1,4 +1,8 @@
+import { defineConfig } from "astro/config";
+import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
+import remarkToc from "remark-toc";
+import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import tailwind from "@astrojs/tailwind";
@@ -37,7 +41,8 @@ export default defineConfig({
     ],
     rehypePlugins: [rehypeKatex],
     shikiConfig: {
-      theme: "dracula",
+      // For more themes, visit https://shiki.style/themes
+      themes: { light: "min-light", dark: "night-owl" },
       wrap: true,
     },
   },
@@ -47,4 +52,7 @@ export default defineConfig({
     },
   },
   scopedStyleStrategy: "where",
+  experimental: {
+    contentLayer: true,
+  },
 });

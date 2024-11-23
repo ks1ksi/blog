@@ -9,6 +9,7 @@ const naverSiteVerification = import.meta.env.PUBLIC_NAVER_SITE_VERIFICATION;
 export interface Props {
   title?: string;
   author?: string;
+  profile?: string;
   description?: string;
   ogImage?: string;
   canonicalURL?: string;
@@ -20,6 +21,7 @@ export interface Props {
 const {
   title = SITE.title,
   author = SITE.author,
+  profile = SITE.profile,
   description = SITE.desc,
   ogImage = SITE.ogImage,
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
@@ -32,6 +34,22 @@ const socialImageURL = new URL(
   ogImage ?? SITE.ogImage ?? "og.png",
   Astro.url.origin,
 ).href;
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: `${title}`,
+  image: `${socialImageURL}`,
+  datePublished: `${pubDatetime?.toISOString()}`,
+  ...(modDatetime && { dateModified: modDatetime.toISOString() }),
+  author: [
+    {
+      "@type": "Person",
+      name: `${author}`,
+      url: `${profile}`,
+    },
+  ],
+};
 ---
 
 <!doctype html>
@@ -129,9 +147,9 @@ const socialImageURL = new URL(
 
   <ViewTransitions />
 
-  <script is:inline src="/toggle-theme.js"></script>
-</head>
-<body>
-<slot />
-</body>
+    <script is:inline src="/toggle-theme.js" async></script>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
